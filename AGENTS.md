@@ -26,3 +26,4 @@ Never add a Discord webhook, API token, cookie, or other secret to this folder.
 - Use `fixtures-calendar.json` and `BuildDailyFixturesRequest.ps1` for daily fixture graphics during the league phase. Do not post anything on days where the generated result is `no-fixtures`.
 - Update `fixtures-calendar.json` only from official UEFA sources, and extend it for knockout fixtures once UEFA confirms them.
 - Use the `Phone: Post match result` workflow or data-only `kind: match` requests for concluded match posts. Verify final score and cards before publishing.
+- Use `BuildAutoMatchRequests.ps1` only for automatic league-phase result polling from UEFA's public JSON feeds. It should skip instead of publishing when final score or card totals are missing.

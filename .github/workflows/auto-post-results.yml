@@ -1,0 +1,100 @@
+name: "Auto: Post finished match results"
+
+on:
+  schedule:
+    # UTC. Covers UK evening match windows, including the first Thursday matchday.
+    - cron: "15,45 18-23 * * 2,3,4"
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "How far back to look for newly finished matches"
+        required: false
+        default: "30"
+        type: string
+
+concurrency:
+  group: champions-league-discord-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    env:
+      INPUT_LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - name: Check out tracker
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Build automatic match requests
+        id: auto-results
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          $lookbackHours = 30
+          if (-not [string]::IsNullOrWhiteSpace($env:INPUT_LOOKBACK_HOURS)) {
+            $lookbackHours = [int]$env:INPUT_LOOKBACK_HOURS
+          }
+
+          $resultText = .\BuildAutoMatchRequests.ps1 -LookbackHours $lookbackHours
+          $result = ($resultText | Out-String).Trim() | ConvertFrom-Json
+          $result | ConvertTo-Json -Depth 8
+
+          Add-Content -LiteralPath $env:GITHUB_OUTPUT -Value "status=$($result.Status)" -Encoding UTF8
+          Add-Content -LiteralPath $env:GITHUB_OUTPUT -Value "created_count=$($result.CreatedCount)" -Encoding UTF8
+
+      - name: Publish match graphics and save state
+        if: steps.auto-results.outputs.status == 'created'
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          if ([string]::IsNullOrWhiteSpace($env:DISCORD_WEBHOOK_URL)) {
+            throw 'Repository secret DISCORD_WEBHOOK_URL is not configured.'
+          }
+
+          $webhookPath = Join-Path $env:RUNNER_TEMP 'discord-webhook.txt'
+          [System.IO.File]::WriteAllText($webhookPath, $env:DISCORD_WEBHOOK_URL, [System.Text.UTF8Encoding]::new($false))
+
+          try {
+            git config user.name 'champions-league-update-bot'
+            git config user.email 'champions-league-update-bot@users.noreply.github.com'
+
+            $remaining = [int]'${{ steps.auto-results.outputs.created_count }}'
+            $iterations = 0
+            while ($remaining -gt 0) {
+              $iterations++
+              if ($iterations -gt 20) {
+                throw 'Refusing to publish more than 20 automatic match requests in one run.'
+              }
+
+              .\PublishRequests.ps1 -WebhookPath $webhookPath -MaxRequests 1
+
+              git add -- tracker-state.json requests/inbox requests/processed requests/delivery-ledger.jsonl
+              $changes = git status --porcelain
+              if (-not [string]::IsNullOrWhiteSpace($changes)) {
+                git commit -m "Record delivered Champions League match"
+                git push origin "HEAD:$env:GITHUB_REF_NAME"
+              } else {
+                throw 'Publisher completed without producing a state or request-ledger change.'
+              }
+
+              $remaining--
+            }
+          } finally {
+            Remove-Item -LiteralPath $webhookPath -Force -ErrorAction SilentlyContinue
+          }
+
+      - name: Report skipped run
+        if: steps.auto-results.outputs.status != 'created'
+        shell: powershell
+        run: |
+          "No finished match graphics were posted. Status: $env:STATUS"
+        env:
+          STATUS: ${{ steps.auto-results.outputs.status }}

@@ -11,6 +11,14 @@ Use lowercase, sortable filenames:
 
 Use match requests for full-time Discord graphics. The publisher renders the post-match standings image, applies the £5 settlement when applicable, updates the running side-bet counters, and records the match as posted only after Discord delivery succeeds.
 
+For automatic league-phase result posts, prefer:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\BuildAutoMatchRequests.ps1
+```
+
+It polls UEFA's public match/status and team-statistics feeds, writes requests only for finished tracked fixtures with card totals available, and skips anything uncertain.
+
 ```json
 {
   "kind": "match",

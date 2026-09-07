@@ -36,7 +36,7 @@ For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
 
 Concluded match posts are handled by the same image-publisher flow as the World Cup tracker.
 
-From GitHub mobile, run the `Phone: Post match result` Action and enter the verified match facts: kickoff, date, stage, teams, score, yellow cards, red cards, optional shootout, optional last-16/elimination notes, and two source URLs. The Action will:
+The GitHub Action `.github/workflows/auto-post-results.yml` polls UEFA's public site-backed JSON feeds during match windows. When UEFA marks a tracked league-phase match as finished and publishes official team card totals, the Action will:
 
 - create a data-only request under `requests/inbox`;
 - render the match update graphic;
@@ -44,6 +44,10 @@ From GitHub mobile, run the `Phone: Post match result` Action and enter the veri
 - update `tracker-state.json`;
 - move the request to `requests/processed`;
 - record the Discord message id in `requests/delivery-ledger.jsonl`.
+
+If UEFA has the score but not card totals yet, the Action skips the match and retries on the next scheduled run. This keeps the yellow/red-card side pots from being guessed.
+
+From GitHub mobile, `Phone: Post match result` remains available as a manual fallback: enter the verified match facts, optional shootout, optional last-16/elimination notes, and two source URLs.
 
 See `update-format.md` for the match-post rules and side-bet handling.
 

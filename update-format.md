@@ -2,7 +2,11 @@
 
 Use this flow for each newly verified final Champions League match.
 
-Routine match-result posts should be rendered with `NewMatchUpdateGraphic.ps1` and posted as an image. The easiest path from GitHub mobile is the `Phone: Post match result` Action, which creates a request, publishes the graphic, updates `tracker-state.json`, and records the Discord receipt.
+Routine match-result posts should be rendered with `NewMatchUpdateGraphic.ps1` and posted as an image.
+
+The no-token path is the scheduled `Auto: Post finished match results` Action. It polls UEFA's public site-backed JSON feeds, creates match requests for newly finished league-phase games, publishes the graphics, updates `tracker-state.json`, and records Discord receipts.
+
+The GitHub-mobile fallback is the `Phone: Post match result` Action, which does the same publishing work after a human enters the verified match facts.
 
 The graphic shows:
 
@@ -18,6 +22,8 @@ The graphic shows:
 Rules:
 
 - Verify final score, yellow cards, and red cards from official UEFA match centres where possible.
+- Automatic result posts use UEFA's match feed for score/status and UEFA's team-statistics feed for card totals.
+- If final score or card totals are missing, skip and retry later instead of posting partial or guessed data.
 - Use at least two HTTPS sources in each request.
 - If two different owners' clubs play and one club wins, including on penalties, the losing owner pays the winning owner £5.
 - League-phase draws are void.
