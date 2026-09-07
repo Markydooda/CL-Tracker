@@ -9,6 +9,8 @@ Use lowercase, sortable filenames:
 
 ## Match request
 
+Use match requests for full-time Discord graphics. The publisher renders the post-match standings image, applies the £5 settlement when applicable, updates the running side-bet counters, and records the match as posted only after Discord delivery succeeds.
+
 ```json
 {
   "kind": "match",

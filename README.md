@@ -32,6 +32,21 @@ The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning and 
 
 For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
 
+## Full-time match update graphics
+
+Concluded match posts are handled by the same image-publisher flow as the World Cup tracker.
+
+From GitHub mobile, run the `Phone: Post match result` Action and enter the verified match facts: kickoff, date, stage, teams, score, yellow cards, red cards, optional shootout, optional last-16/elimination notes, and two source URLs. The Action will:
+
+- create a data-only request under `requests/inbox`;
+- render the match update graphic;
+- post it to Discord;
+- update `tracker-state.json`;
+- move the request to `requests/processed`;
+- record the Discord message id in `requests/delivery-ledger.jsonl`.
+
+See `update-format.md` for the match-post rules and side-bet handling.
+
 ## Source notes
 
 Use official UEFA match centres when available, especially for fixtures, final score, cards, league table position, top-8/direct last-16 qualification, knockout play-off winners, and the final winner.
