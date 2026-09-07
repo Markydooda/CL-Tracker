@@ -1,0 +1,40 @@
+name: Validate Champions League update requests
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "requests/inbox/*.json"
+      - "PublishRequests.ps1"
+      - "BuildMatchUpdate.ps1"
+      - "NewFixturesGraphic.ps1"
+      - "NewMatchUpdateGraphic.ps1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - name: Check out request branch
+        uses: actions/checkout@v6
+
+      - name: Run publisher tests
+        shell: powershell
+        run: |
+          .\TestPublisher.ps1
+
+      - name: Validate requests and render previews
+        shell: powershell
+        run: |
+          .\PublishRequests.ps1 -DryRun
+
+      - name: Upload rendered previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: champions-league-update-previews
+          path: github-publisher-temp/*.png
+          if-no-files-found: ignore
+          retention-days: 7

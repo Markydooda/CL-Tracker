@@ -1,0 +1,178 @@
+name: "Phone: Post match result"
+
+on:
+  workflow_dispatch:
+    inputs:
+      kickoff:
+        description: "Kickoff with UK offset, e.g. 2026-09-08T17:45:00+01:00"
+        required: true
+        type: string
+      match_date:
+        description: "Tracker date (YYYY-MM-DD)"
+        required: true
+        type: string
+      stage:
+        description: "Stage"
+        required: true
+        type: choice
+        options:
+          - LP
+          - PO
+          - R16
+          - QF
+          - SF
+          - Final
+      home_team:
+        description: "Home team (canonical draft name)"
+        required: true
+        type: string
+      home_score:
+        description: "Home score after normal/extra time"
+        required: true
+        type: number
+      away_team:
+        description: "Away team (canonical draft name)"
+        required: true
+        type: string
+      away_score:
+        description: "Away score after normal/extra time"
+        required: true
+        type: number
+      home_yellows:
+        description: "Home yellow cards"
+        required: true
+        default: 0
+        type: number
+      away_yellows:
+        description: "Away yellow cards"
+        required: true
+        default: 0
+        type: number
+      home_reds:
+        description: "Home red cards"
+        required: true
+        default: 0
+        type: number
+      away_reds:
+        description: "Away red cards"
+        required: true
+        default: 0
+        type: number
+      home_shootout:
+        description: "Home shootout score (leave blank unless needed)"
+        required: false
+        type: string
+      away_shootout:
+        description: "Away shootout score (leave blank unless needed)"
+        required: false
+        type: string
+      eliminated_team:
+        description: "Eliminated team (optional; use when a tie/league phase position is decided)"
+        required: false
+        type: string
+      last16_teams:
+        description: "Teams newly reaching last 16, comma-separated (optional)"
+        required: false
+        type: string
+      source_1:
+        description: "Opened HTTPS source URL confirming score/cards"
+        required: true
+        type: string
+      source_2:
+        description: "Second opened HTTPS source URL"
+        required: true
+        type: string
+
+concurrency:
+  group: champions-league-discord-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    env:
+      INPUT_KICKOFF: ${{ inputs.kickoff }}
+      INPUT_MATCH_DATE: ${{ inputs.match_date }}
+      INPUT_STAGE: ${{ inputs.stage }}
+      INPUT_HOME_TEAM: ${{ inputs.home_team }}
+      INPUT_HOME_SCORE: ${{ inputs.home_score }}
+      INPUT_AWAY_TEAM: ${{ inputs.away_team }}
+      INPUT_AWAY_SCORE: ${{ inputs.away_score }}
+      INPUT_HOME_YELLOWS: ${{ inputs.home_yellows }}
+      INPUT_AWAY_YELLOWS: ${{ inputs.away_yellows }}
+      INPUT_HOME_REDS: ${{ inputs.home_reds }}
+      INPUT_AWAY_REDS: ${{ inputs.away_reds }}
+      INPUT_HOME_SHOOTOUT: ${{ inputs.home_shootout }}
+      INPUT_AWAY_SHOOTOUT: ${{ inputs.away_shootout }}
+      INPUT_ELIMINATED_TEAM: ${{ inputs.eliminated_team }}
+      INPUT_LAST16_TEAMS: ${{ inputs.last16_teams }}
+      INPUT_SOURCE_1: ${{ inputs.source_1 }}
+      INPUT_SOURCE_2: ${{ inputs.source_2 }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Build request, publish, and save state
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if ([string]::IsNullOrWhiteSpace($env:DISCORD_WEBHOOK_URL)) {
+            throw 'Repository secret DISCORD_WEBHOOK_URL is not configured.'
+          }
+
+          $last16Teams = @()
+          if (-not [string]::IsNullOrWhiteSpace($env:INPUT_LAST16_TEAMS)) {
+            $last16Teams = @($env:INPUT_LAST16_TEAMS -split ',' | ForEach-Object { $_.Trim() } | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+          }
+
+          $eliminatedTeams = @()
+          if (-not [string]::IsNullOrWhiteSpace($env:INPUT_ELIMINATED_TEAM)) {
+            $eliminatedTeams = @($env:INPUT_ELIMINATED_TEAM)
+          }
+
+          $request = [ordered]@{
+            kind = 'match'
+            kickoff = $env:INPUT_KICKOFF
+            matchDate = $env:INPUT_MATCH_DATE
+            stage = $env:INPUT_STAGE
+            homeTeam = $env:INPUT_HOME_TEAM
+            homeScore = [int]$env:INPUT_HOME_SCORE
+            awayTeam = $env:INPUT_AWAY_TEAM
+            awayScore = [int]$env:INPUT_AWAY_SCORE
+            homeYellowCards = [int]$env:INPUT_HOME_YELLOWS
+            awayYellowCards = [int]$env:INPUT_AWAY_YELLOWS
+            homeRedCards = [int]$env:INPUT_HOME_REDS
+            awayRedCards = [int]$env:INPUT_AWAY_REDS
+            homeShootoutScore = if ([string]::IsNullOrWhiteSpace($env:INPUT_HOME_SHOOTOUT)) { $null } else { [int]$env:INPUT_HOME_SHOOTOUT }
+            awayShootoutScore = if ([string]::IsNullOrWhiteSpace($env:INPUT_AWAY_SHOOTOUT)) { $null } else { [int]$env:INPUT_AWAY_SHOOTOUT }
+            last16Teams = $last16Teams
+            eliminatedTeams = $eliminatedTeams
+            sources = @(
+              [ordered]@{ url = $env:INPUT_SOURCE_1; supports = @('final score', 'cards') }
+              [ordered]@{ url = $env:INPUT_SOURCE_2; supports = @('final score', 'cards', 'elimination') }
+            )
+          }
+
+          $requestPath = Join-Path '.\requests\inbox' "phone-match-$env:GITHUB_RUN_ID.json"
+          $request | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $requestPath -Encoding UTF8
+
+          $webhookPath = Join-Path $env:RUNNER_TEMP 'discord-webhook.txt'
+          [System.IO.File]::WriteAllText($webhookPath, $env:DISCORD_WEBHOOK_URL, [System.Text.UTF8Encoding]::new($false))
+
+          try {
+            .\PublishRequests.ps1 -WebhookPath $webhookPath -MaxRequests 1
+
+            git config user.name 'champions-league-update-bot'
+            git config user.email 'champions-league-update-bot@users.noreply.github.com'
+            git add -- tracker-state.json requests/inbox requests/processed requests/delivery-ledger.jsonl
+            git commit -m "Record delivered Champions League match"
+            git push origin HEAD:main
+          } finally {
+            Remove-Item -LiteralPath $webhookPath -Force -ErrorAction SilentlyContinue
+          }

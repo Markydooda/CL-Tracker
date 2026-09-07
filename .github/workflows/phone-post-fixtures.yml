@@ -1,0 +1,175 @@
+name: "Phone: Post fixtures"
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_date:
+        description: "Post date (YYYY-MM-DD)"
+        required: true
+        type: string
+      window_start:
+        description: "Window start with UK offset, e.g. 2026-09-08T08:00:00+01:00"
+        required: true
+        type: string
+      source_1:
+        description: "Opened HTTPS fixture source URL"
+        required: true
+        type: string
+      source_2:
+        description: "Second opened HTTPS fixture source URL"
+        required: true
+        type: string
+      fixture_1_stage:
+        description: "Fixture 1 stage"
+        required: true
+        type: string
+      fixture_1_home:
+        description: "Fixture 1 home team"
+        required: true
+        type: string
+      fixture_1_away:
+        description: "Fixture 1 away team"
+        required: true
+        type: string
+      fixture_1_uk:
+        description: "Fixture 1 UK label, e.g. Today, 7:00 PM"
+        required: true
+        type: string
+      fixture_1_vegas:
+        description: "Fixture 1 Las Vegas label"
+        required: true
+        type: string
+      fixture_2_stage:
+        description: "Fixture 2 stage (optional)"
+        required: false
+        type: string
+      fixture_2_home:
+        description: "Fixture 2 home team (optional)"
+        required: false
+        type: string
+      fixture_2_away:
+        description: "Fixture 2 away team (optional)"
+        required: false
+        type: string
+      fixture_2_uk:
+        description: "Fixture 2 UK label (optional)"
+        required: false
+        type: string
+      fixture_2_vegas:
+        description: "Fixture 2 Las Vegas label (optional)"
+        required: false
+        type: string
+      fixture_3_stage:
+        description: "Fixture 3 stage (optional)"
+        required: false
+        type: string
+      fixture_3_home:
+        description: "Fixture 3 home team (optional)"
+        required: false
+        type: string
+      fixture_3_away:
+        description: "Fixture 3 away team (optional)"
+        required: false
+        type: string
+      fixture_3_uk:
+        description: "Fixture 3 UK label (optional)"
+        required: false
+        type: string
+      fixture_3_vegas:
+        description: "Fixture 3 Las Vegas label (optional)"
+        required: false
+        type: string
+
+concurrency:
+  group: champions-league-discord-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    env:
+      INPUT_POST_DATE: ${{ inputs.post_date }}
+      INPUT_WINDOW_START: ${{ inputs.window_start }}
+      INPUT_SOURCE_1: ${{ inputs.source_1 }}
+      INPUT_SOURCE_2: ${{ inputs.source_2 }}
+      F1_STAGE: ${{ inputs.fixture_1_stage }}
+      F1_HOME: ${{ inputs.fixture_1_home }}
+      F1_AWAY: ${{ inputs.fixture_1_away }}
+      F1_UK: ${{ inputs.fixture_1_uk }}
+      F1_VEGAS: ${{ inputs.fixture_1_vegas }}
+      F2_STAGE: ${{ inputs.fixture_2_stage }}
+      F2_HOME: ${{ inputs.fixture_2_home }}
+      F2_AWAY: ${{ inputs.fixture_2_away }}
+      F2_UK: ${{ inputs.fixture_2_uk }}
+      F2_VEGAS: ${{ inputs.fixture_2_vegas }}
+      F3_STAGE: ${{ inputs.fixture_3_stage }}
+      F3_HOME: ${{ inputs.fixture_3_home }}
+      F3_AWAY: ${{ inputs.fixture_3_away }}
+      F3_UK: ${{ inputs.fixture_3_uk }}
+      F3_VEGAS: ${{ inputs.fixture_3_vegas }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Build request, publish, and save receipt
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if ([string]::IsNullOrWhiteSpace($env:DISCORD_WEBHOOK_URL)) {
+            throw 'Repository secret DISCORD_WEBHOOK_URL is not configured.'
+          }
+
+          $fixtures = @()
+          foreach ($number in 1..3) {
+            $stage = [Environment]::GetEnvironmentVariable("F${number}_STAGE")
+            $home = [Environment]::GetEnvironmentVariable("F${number}_HOME")
+            $away = [Environment]::GetEnvironmentVariable("F${number}_AWAY")
+            $uk = [Environment]::GetEnvironmentVariable("F${number}_UK")
+            $vegas = [Environment]::GetEnvironmentVariable("F${number}_VEGAS")
+
+            if (-not [string]::IsNullOrWhiteSpace($home)) {
+              $fixtures += [ordered]@{
+                Stage = $stage
+                HomeTeam = $home
+                AwayTeam = $away
+                UK = $uk
+                LasVegas = $vegas
+              }
+            }
+          }
+
+          $request = [ordered]@{
+            kind = 'fixtures'
+            id = "fixtures-$env:INPUT_POST_DATE"
+            windowStart = $env:INPUT_WINDOW_START
+            subtitle = 'Next 24 hours - UK and Las Vegas kickoff times'
+            fixtures = $fixtures
+            sources = @(
+              [ordered]@{ url = $env:INPUT_SOURCE_1; supports = @('fixtures', 'kickoff times') }
+              [ordered]@{ url = $env:INPUT_SOURCE_2; supports = @('fixtures', 'kickoff times') }
+            )
+          }
+
+          $requestPath = Join-Path '.\requests\inbox' "phone-fixtures-$env:GITHUB_RUN_ID.json"
+          $request | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $requestPath -Encoding UTF8
+
+          $webhookPath = Join-Path $env:RUNNER_TEMP 'discord-webhook.txt'
+          [System.IO.File]::WriteAllText($webhookPath, $env:DISCORD_WEBHOOK_URL, [System.Text.UTF8Encoding]::new($false))
+
+          try {
+            .\PublishRequests.ps1 -WebhookPath $webhookPath -MaxRequests 1
+
+            git config user.name 'champions-league-update-bot'
+            git config user.email 'champions-league-update-bot@users.noreply.github.com'
+            git add -- requests/inbox requests/processed requests/delivery-ledger.jsonl
+            git commit -m "Record delivered Champions League fixtures"
+            git push origin HEAD:main
+          } finally {
+            Remove-Item -LiteralPath $webhookPath -Force -ErrorAction SilentlyContinue
+          }

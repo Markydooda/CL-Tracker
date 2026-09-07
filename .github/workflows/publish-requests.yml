@@ -1,0 +1,68 @@
+name: Publish Champions League updates
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "requests/inbox/*.json"
+  workflow_dispatch:
+
+concurrency:
+  group: champions-league-discord-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Publish pending requests and save state
+        shell: powershell
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if ([string]::IsNullOrWhiteSpace($env:DISCORD_WEBHOOK_URL)) {
+            throw 'Repository secret DISCORD_WEBHOOK_URL is not configured.'
+          }
+
+          $webhookPath = Join-Path $env:RUNNER_TEMP 'discord-webhook.txt'
+          [System.IO.File]::WriteAllText(
+            $webhookPath,
+            $env:DISCORD_WEBHOOK_URL,
+            [System.Text.UTF8Encoding]::new($false)
+          )
+
+          try {
+            git config user.name 'champions-league-update-bot'
+            git config user.email 'champions-league-update-bot@users.noreply.github.com'
+
+            $iterations = 0
+            while (@(Get-ChildItem '.\requests\inbox' -Filter '*.json' -File).Count -gt 0) {
+              $iterations++
+              if ($iterations -gt 20) {
+                throw 'Refusing to publish more than 20 requests in one run.'
+              }
+
+              .\PublishRequests.ps1 -WebhookPath $webhookPath -MaxRequests 1
+
+              git add -- tracker-state.json requests/inbox requests/processed requests/delivery-ledger.jsonl
+              git diff --cached --quiet
+              if ($LASTEXITCODE -eq 0) {
+                throw 'Publisher completed without producing a state or request-ledger change.'
+              }
+
+              git commit -m "Record delivered Champions League update"
+              git push origin HEAD:main
+            }
+          } finally {
+            Remove-Item -LiteralPath $webhookPath -Force -ErrorAction SilentlyContinue
+          }

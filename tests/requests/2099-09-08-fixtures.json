@@ -1,0 +1,25 @@
+{
+  "kind": "fixtures",
+  "id": "fixtures-2099-09-08",
+  "windowStart": "2099-09-08T08:00:00+01:00",
+  "subtitle": "Next 24 hours - UK and Las Vegas kickoff times",
+  "fixtures": [
+    {
+      "Stage": "LP",
+      "HomeTeam": "Arsenal",
+      "AwayTeam": "Napoli",
+      "UK": "Today, 8:00 PM",
+      "LasVegas": "Today, 12:00 PM"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.uefa.com/example-fixtures",
+      "supports": ["fixtures", "kickoff times"]
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/example-fixtures",
+      "supports": ["fixtures", "kickoff times"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Secrets and local delivery logs
+discord-webhook.txt
+discord-post-log.jsonl
+discord-outbox-log.jsonl
+
+# Local queues and generated artifacts
+discord-outbox/
+discord-outbox-held/
+automation-temp/
+github-publisher-temp/
+publisher-tests/
+tmp/
+*.png
+next-state-*.json
+upcoming-fixtures.json
+
+# Scratch payloads and editor files
+*-test-payload.json
+.DS_Store
+Thumbs.db
+*.tmp

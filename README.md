@@ -1,0 +1,43 @@
+# Champions League Draft Tracker
+
+Fresh tracker for the 2026/27 UEFA Champions League draft.
+
+Same players and core money rules as the World Cup game:
+
+- Jack, Thomas, Mark, and Rory draft clubs.
+- £5 moves from the losing owner to the winning owner for each match.
+- Draws are void.
+- Same-owner matches are void.
+- Goals, red cards, and Champions League winner side pots remain the same.
+- The old “qualified from groups” side pot is now “most drafted clubs reaching the last 16”.
+
+## Before the first post
+
+Fill `draft.json` after the draft. The official 36 league-phase clubs are listed in `teams.json`.
+
+Once every club has an owner, this folder can publish match updates in the same style as the World Cup tracker.
+
+## Daily fixture graphics
+
+The tracker includes the league-phase fixture calendar in `fixtures-calendar.json`, built from UEFA's official published schedule.
+
+To create the morning game-day post locally:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\BuildDailyFixturesRequest.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\PublishRequests.ps1 -DryRun
+```
+
+The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning and posts the fixture graphic to Discord only when the next 24 hours contain Champions League draft fixtures. Off-days are skipped without posting.
+
+For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
+
+## Source notes
+
+Use official UEFA match centres when available, especially for fixtures, final score, cards, league table position, top-8/direct last-16 qualification, knockout play-off winners, and the final winner.
+
+The 2026/27 league phase has 36 clubs, eight matchdays, and no fixed groups. Top 8 reach the round of 16 directly; 9th-24th enter knockout play-offs; play-off winners complete the last 16.
+
+## Discord posting
+
+Keep webhook files private. If this project gets its own GitHub repo, add the webhook as a repository secret rather than committing it.

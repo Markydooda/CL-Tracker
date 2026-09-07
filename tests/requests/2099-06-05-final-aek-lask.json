@@ -1,0 +1,28 @@
+{
+  "kind": "match",
+  "kickoff": "2099-06-05T20:00:00+01:00",
+  "matchDate": "2099-06-05",
+  "stage": "Final",
+  "homeTeam": "AEK Athens",
+  "homeScore": 1,
+  "awayTeam": "LASK",
+  "awayScore": 1,
+  "homeYellowCards": 2,
+  "awayYellowCards": 2,
+  "homeRedCards": 0,
+  "awayRedCards": 1,
+  "homeShootoutScore": 4,
+  "awayShootoutScore": 3,
+  "last16Teams": [],
+  "eliminatedTeams": ["LASK"],
+  "sources": [
+    {
+      "url": "https://www.uefa.com/example-final",
+      "supports": ["final score", "cards", "shootout"]
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/example-final",
+      "supports": ["final score", "cards", "shootout", "elimination"]
+    }
+  ]
+}
