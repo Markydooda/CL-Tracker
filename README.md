@@ -28,7 +28,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\BuildDailyFixturesRequest.
 powershell -NoProfile -ExecutionPolicy Bypass -File .\PublishRequests.ps1 -DryRun
 ```
 
-The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning at 08:17 Europe/London and posts the fixture graphic to Discord only when the next 24 hours contain Champions League draft fixtures. Off-days are skipped without posting.
+The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning at 11:04 Europe/London and posts the fixture graphic to Discord only when the next 24 hours contain Champions League draft fixtures. Off-days are skipped without posting.
 
 For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
 

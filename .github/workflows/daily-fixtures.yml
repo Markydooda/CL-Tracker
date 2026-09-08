@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs each morning before the day's fixtures. Avoid the top of the hour,
     # where GitHub scheduled workflows are more likely to be delayed or dropped.
-    - cron: "17 8 * * *"
+    - cron: "4 11 * * *"
       timezone: "Europe/London"
   workflow_dispatch:
     inputs:
