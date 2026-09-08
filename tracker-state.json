@@ -38,13 +38,13 @@
                      "goals":  {
                                    "Jack":  1,
                                    "Thomas":  0,
-                                   "Mark":  0,
+                                   "Mark":  5,
                                    "Rory":  0
                                },
                      "goalsConceded":  {
                                            "Jack":  1,
                                            "Thomas":  0,
-                                           "Mark":  0,
+                                           "Mark":  5,
                                            "Rory":  0
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  4,
                                          "Thomas":  0,
-                                         "Mark":  0,
+                                         "Mark":  6,
                                          "Rory":  0
                                      },
                      "last16":  {
@@ -67,15 +67,20 @@
                                 }
                  },
     "leaguePoints":  {
-                         "AEK Athens":  3
+                         "AEK Athens":  3,
+                         "Aston Villa":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
-                         "LASK":  0
+                         "LASK":  0,
+                         "Club Brugge":  2,
+                         "Aston Villa":  3
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
-                             "LASK":  1
+                             "LASK":  1,
+                             "Club Brugge":  3,
+                             "Aston Villa":  2
                          },
     "last16Teams":  [
 
@@ -84,6 +89,7 @@
 
                         ],
     "postedMatches":  [
-                          "2026-09-08|LP|AEK Athens|LASK|1-0"
+                          "2026-09-08|LP|AEK Athens|LASK|1-0",
+                          "2026-09-08|LP|Club Brugge|Aston Villa|2-3"
                       ]
 }
