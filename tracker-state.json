@@ -1,67 +1,89 @@
 ﻿{
-  "balancesGBP": {
-    "Jack": 0,
-    "Thomas": 0,
-    "Mark": 0,
-    "Rory": 0
-  },
-  "sideBets": {
-    "pots": {
-      "goalsGBP": 40,
-      "redCardsGBP": 40,
-      "last16GBP": 40,
-      "championsLeagueWinnerGBP": 100
-    },
-    "stakesPerOwnerGBP": {
-      "goals": 10,
-      "redCards": 10,
-      "last16": 10,
-      "championsLeagueWinner": 25
-    },
-    "settlementMode": "Track match-bet balances during the tournament; add side-bet payouts to the final total balance only at the end.",
-    "championsLeagueWinnerTeam": null,
-    "championsLeagueWinnerOwner": null,
-    "settledPayoutsGBP": {
-      "goals": {},
-      "redCards": {},
-      "last16": {},
-      "championsLeagueWinner": {}
-    },
-    "goals": {
-      "Jack": 0,
-      "Thomas": 0,
-      "Mark": 0,
-      "Rory": 0
-    },
-    "goalsConceded": {
-      "Jack": 0,
-      "Thomas": 0,
-      "Mark": 0,
-      "Rory": 0
-    },
-    "redCards": {
-      "Jack": 0,
-      "Thomas": 0,
-      "Mark": 0,
-      "Rory": 0
-    },
-    "yellowCards": {
-      "Jack": 0,
-      "Thomas": 0,
-      "Mark": 0,
-      "Rory": 0
-    },
-    "last16": {
-      "Jack": 0,
-      "Thomas": 0,
-      "Mark": 0,
-      "Rory": 0
-    }
-  },
-  "leaguePoints": {},
-  "teamGoalsFor": {},
-  "teamGoalsAgainst": {},
-  "last16Teams": [],
-  "eliminatedTeams": [],
-  "postedMatches": []
+    "balancesGBP":  {
+                        "Jack":  0,
+                        "Thomas":  0,
+                        "Mark":  0,
+                        "Rory":  0
+                    },
+    "sideBets":  {
+                     "pots":  {
+                                  "goalsGBP":  40,
+                                  "redCardsGBP":  40,
+                                  "last16GBP":  40,
+                                  "championsLeagueWinnerGBP":  100
+                              },
+                     "stakesPerOwnerGBP":  {
+                                               "goals":  10,
+                                               "redCards":  10,
+                                               "last16":  10,
+                                               "championsLeagueWinner":  25
+                                           },
+                     "settlementMode":  "Track match-bet balances during the tournament; add side-bet payouts to the final total balance only at the end.",
+                     "championsLeagueWinnerTeam":  null,
+                     "championsLeagueWinnerOwner":  null,
+                     "settledPayoutsGBP":  {
+                                               "goals":  {
+
+                                                         },
+                                               "redCards":  {
+
+                                                            },
+                                               "last16":  {
+
+                                                          },
+                                               "championsLeagueWinner":  {
+
+                                                                         }
+                                           },
+                     "goals":  {
+                                   "Jack":  1,
+                                   "Thomas":  0,
+                                   "Mark":  0,
+                                   "Rory":  0
+                               },
+                     "goalsConceded":  {
+                                           "Jack":  1,
+                                           "Thomas":  0,
+                                           "Mark":  0,
+                                           "Rory":  0
+                                       },
+                     "redCards":  {
+                                      "Jack":  0,
+                                      "Thomas":  0,
+                                      "Mark":  0,
+                                      "Rory":  0
+                                  },
+                     "yellowCards":  {
+                                         "Jack":  4,
+                                         "Thomas":  0,
+                                         "Mark":  0,
+                                         "Rory":  0
+                                     },
+                     "last16":  {
+                                    "Jack":  0,
+                                    "Thomas":  0,
+                                    "Mark":  0,
+                                    "Rory":  0
+                                }
+                 },
+    "leaguePoints":  {
+                         "AEK Athens":  3
+                     },
+    "teamGoalsFor":  {
+                         "AEK Athens":  1,
+                         "LASK":  0
+                     },
+    "teamGoalsAgainst":  {
+                             "AEK Athens":  0,
+                             "LASK":  1
+                         },
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "postedMatches":  [
+                          "2026-09-08|LP|AEK Athens|LASK|1-0"
+                      ]
 }

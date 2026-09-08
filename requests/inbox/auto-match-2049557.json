@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-09-08T19:00:00.0000000+00:00",
+    "matchDate":  "2026-09-08",
+    "stage":  "LP",
+    "homeTeam":  "Lille",
+    "homeScore":  2,
+    "awayTeam":  "Real Betis",
+    "awayScore":  3,
+    "homeYellowCards":  1,
+    "awayYellowCards":  3,
+    "homeRedCards":  1,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049557\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049557",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}
