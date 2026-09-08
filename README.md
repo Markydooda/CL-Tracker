@@ -28,7 +28,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\BuildDailyFixturesRequest.
 powershell -NoProfile -ExecutionPolicy Bypass -File .\PublishRequests.ps1 -DryRun
 ```
 
-The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning and posts the fixture graphic to Discord only when the next 24 hours contain Champions League draft fixtures. Off-days are skipped without posting.
+The GitHub Action `.github/workflows/daily-fixtures.yml` runs every morning at 08:17 Europe/London and posts the fixture graphic to Discord only when the next 24 hours contain Champions League draft fixtures. Off-days are skipped without posting.
 
 For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
 
@@ -36,7 +36,7 @@ For the Action to post, configure the repository secret `DISCORD_WEBHOOK_URL`.
 
 Concluded match posts are handled by the same image-publisher flow as the World Cup tracker.
 
-The GitHub Action `.github/workflows/auto-post-results.yml` polls UEFA's public site-backed JSON feeds during match windows. When UEFA marks a tracked league-phase match as finished and publishes official team card totals, the Action will:
+The GitHub Action `.github/workflows/auto-post-results.yml` polls UEFA's public site-backed JSON feeds every 30 minutes from 18:15 to 23:45 Europe/London on Tuesday, Wednesday, and Thursday match nights. When UEFA marks a tracked league-phase match as finished and publishes official team card totals, the Action will:
 
 - create a data-only request under `requests/inbox`;
 - render the match update graphic;

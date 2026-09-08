@@ -2,8 +2,10 @@ name: "Daily: Post Champions League fixtures"
 
 on:
   schedule:
-    # GitHub Actions cron is UTC. This runs each morning before the day's fixtures.
-    - cron: "0 7 * * *"
+    # Runs each morning before the day's fixtures. Avoid the top of the hour,
+    # where GitHub scheduled workflows are more likely to be delayed or dropped.
+    - cron: "17 8 * * *"
+      timezone: "Europe/London"
   workflow_dispatch:
     inputs:
       window_start:

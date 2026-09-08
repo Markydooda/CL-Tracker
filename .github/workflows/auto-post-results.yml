@@ -2,8 +2,9 @@ name: "Auto: Post finished match results"
 
 on:
   schedule:
-    # UTC. Covers UK evening match windows, including the first Thursday matchday.
+    # Covers UK evening match windows, including the first Thursday matchday.
     - cron: "15,45 18-23 * * 2,3,4"
+      timezone: "Europe/London"
   workflow_dispatch:
     inputs:
       lookback_hours:
