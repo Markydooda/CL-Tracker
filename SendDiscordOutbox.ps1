@@ -143,6 +143,7 @@ New-Item -ItemType Directory -Path $sentDir -Force | Out-Null
 
 $lockStream = $null
 $hadFailures = $false
+$failureMessages = @()
 try {
     if (Test-Path -LiteralPath $lockPath) {
         $lockAge = (Get-Date) - (Get-Item -LiteralPath $lockPath).LastWriteTime
@@ -226,6 +227,7 @@ try {
             }
         } catch {
             $hadFailures = $true
+            $failureMessages += $_.Exception.Message
             Write-OutboxLog @{
                 event = 'failed'
                 queuePath = $itemFile.FullName
@@ -235,7 +237,7 @@ try {
     }
 
     if ($hadFailures) {
-        throw 'One or more Discord outbox items failed. See discord-outbox-log.jsonl for details.'
+        throw "One or more Discord outbox items failed: $($failureMessages -join ' | ')"
     }
 } finally {
     if ($null -ne $lockStream) {
