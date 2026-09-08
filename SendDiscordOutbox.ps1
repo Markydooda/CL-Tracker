@@ -135,15 +135,14 @@ function Set-StateFile([string]$SourcePath, [string]$TargetPath) {
         New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
     }
 
-    $tmpTarget = "$resolvedTarget.tmp"
-    Copy-Item -LiteralPath $resolvedSource -Destination $tmpTarget -Force
-    Move-Item -LiteralPath $tmpTarget -Destination $resolvedTarget -Force
+    [System.IO.File]::Copy($resolvedSource, $resolvedTarget, $true)
 }
 
 New-Item -ItemType Directory -Path $OutboxDir -Force | Out-Null
 New-Item -ItemType Directory -Path $sentDir -Force | Out-Null
 
 $lockStream = $null
+$hadFailures = $false
 try {
     if (Test-Path -LiteralPath $lockPath) {
         $lockAge = (Get-Date) - (Get-Item -LiteralPath $lockPath).LastWriteTime
@@ -226,12 +225,17 @@ try {
                 output = $deliveryText
             }
         } catch {
+            $hadFailures = $true
             Write-OutboxLog @{
                 event = 'failed'
                 queuePath = $itemFile.FullName
                 message = $_.Exception.Message
             }
         }
+    }
+
+    if ($hadFailures) {
+        throw 'One or more Discord outbox items failed. See discord-outbox-log.jsonl for details.'
     }
 } finally {
     if ($null -ne $lockStream) {
