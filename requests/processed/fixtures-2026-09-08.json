@@ -1,0 +1,67 @@
+﻿{
+    "kind":  "fixtures",
+    "id":  "fixtures-2026-09-08",
+    "windowStart":  "2026-09-08T11:04:00.0000000+01:00",
+    "subtitle":  "Matchday 1 - UK and Las Vegas kickoff times",
+    "fixtures":  [
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "AEK Athens",
+                         "AwayTeam":  "LASK",
+                         "UK":  "Today, 5:45 PM",
+                         "LasVegas":  "Today, 9:45 AM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Club Brugge",
+                         "AwayTeam":  "Aston Villa",
+                         "UK":  "Today, 5:45 PM",
+                         "LasVegas":  "Today, 9:45 AM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Borussia Dortmund",
+                         "AwayTeam":  "Villarreal",
+                         "UK":  "Today, 8:00 PM",
+                         "LasVegas":  "Today, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Lille",
+                         "AwayTeam":  "Real Betis",
+                         "UK":  "Today, 8:00 PM",
+                         "LasVegas":  "Today, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Porto",
+                         "AwayTeam":  "Manchester City",
+                         "UK":  "Today, 8:00 PM",
+                         "LasVegas":  "Today, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Real Madrid",
+                         "AwayTeam":  "Inter",
+                         "UK":  "Today, 8:00 PM",
+                         "LasVegas":  "Today, 12:00 PM"
+                     }
+                 ],
+    "sources":  [
+                    {
+                        "url":  "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/",
+                        "supports":  [
+                                         "fixtures",
+                                         "kickoff times",
+                                         "league phase"
+                                     ]
+                    },
+                    {
+                        "url":  "https://www.uefa.com/uefachampionsleague/fixtures-results/",
+                        "supports":  [
+                                         "fixtures",
+                                         "kickoff times"
+                                     ]
+                    }
+                ]
+}
