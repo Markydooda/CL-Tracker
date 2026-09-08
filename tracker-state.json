@@ -1,7 +1,7 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  0,
-                        "Thomas":  5,
+                        "Jack":  5,
+                        "Thomas":  0,
                         "Mark":  0,
                         "Rory":  -5
                     },
@@ -36,26 +36,26 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  1,
-                                   "Thomas":  3,
+                                   "Jack":  4,
+                                   "Thomas":  5,
                                    "Mark":  5,
                                    "Rory":  2
                                },
                      "goalsConceded":  {
-                                           "Jack":  1,
-                                           "Thomas":  2,
+                                           "Jack":  3,
+                                           "Thomas":  5,
                                            "Mark":  5,
                                            "Rory":  3
                                        },
                      "redCards":  {
                                       "Jack":  0,
-                                      "Thomas":  0,
+                                      "Thomas":  1,
                                       "Mark":  0,
                                       "Rory":  0
                                   },
                      "yellowCards":  {
-                                         "Jack":  4,
-                                         "Thomas":  1,
+                                         "Jack":  7,
+                                         "Thomas":  2,
                                          "Mark":  6,
                                          "Rory":  3
                                      },
@@ -69,7 +69,8 @@
     "leaguePoints":  {
                          "AEK Athens":  3,
                          "Aston Villa":  3,
-                         "Borussia Dortmund":  3
+                         "Borussia Dortmund":  3,
+                         "Real Betis":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -77,7 +78,9 @@
                          "Club Brugge":  2,
                          "Aston Villa":  3,
                          "Borussia Dortmund":  3,
-                         "Villarreal":  2
+                         "Villarreal":  2,
+                         "Lille":  2,
+                         "Real Betis":  3
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -85,7 +88,9 @@
                              "Club Brugge":  3,
                              "Aston Villa":  2,
                              "Borussia Dortmund":  2,
-                             "Villarreal":  3
+                             "Villarreal":  3,
+                             "Lille":  3,
+                             "Real Betis":  2
                          },
     "last16Teams":  [
 
@@ -96,6 +101,7 @@
     "postedMatches":  [
                           "2026-09-08|LP|AEK Athens|LASK|1-0",
                           "2026-09-08|LP|Club Brugge|Aston Villa|2-3",
-                          "2026-09-08|LP|Borussia Dortmund|Villarreal|3-2"
+                          "2026-09-08|LP|Borussia Dortmund|Villarreal|3-2",
+                          "2026-09-08|LP|Lille|Real Betis|2-3"
                       ]
 }
