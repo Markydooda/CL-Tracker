@@ -151,8 +151,13 @@ function Get-PenaltyScore([object]$Match, [string]$Side) {
         return $null
     }
 
-    if (Test-ObjectProperty $Match.score 'penalty' -and Test-ObjectProperty $Match.score.penalty $Side) {
-        return Convert-NullableInt $Match.score.penalty.$Side
+    if (-not (Test-ObjectProperty $Match.score 'penalty')) {
+        return $null
+    }
+
+    $penalty = $Match.score.PSObject.Properties['penalty'].Value
+    if (Test-ObjectProperty $penalty $Side) {
+        return Convert-NullableInt $penalty.PSObject.Properties[$Side].Value
     }
 
     $null
@@ -218,6 +223,18 @@ function Invoke-UefaJson([string]$Uri) {
     }
 }
 
+function ConvertTo-FlatArray([object]$Value) {
+    if ($null -eq $Value) {
+        return @()
+    }
+
+    if ($Value -is [array]) {
+        return @($Value)
+    }
+
+    @($Value)
+}
+
 function Get-DateKey([object]$Value) {
     if ($Value -is [DateTime]) {
         return $Value.ToString('yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture)
@@ -236,7 +253,7 @@ foreach ($fixture in @($calendar.fixtures)) {
     $calendarMatches[$key] = $true
 }
 
-$matches = @(Invoke-UefaJson $MatchesApiUrl)
+$matches = ConvertTo-FlatArray (Invoke-UefaJson $MatchesApiUrl)
 $created = @()
 $skipped = @()
 
@@ -303,7 +320,7 @@ foreach ($match in @($matches | Sort-Object @{ Expression = { $_.kickOffTime.dat
     }
 
     $statsUrl = "https://matchstats.uefa.com/v1/team-statistics/$($match.id)"
-    $stats = @(Invoke-UefaJson $statsUrl)
+    $stats = ConvertTo-FlatArray (Invoke-UefaJson $statsUrl)
     $homeYellowCards = Get-StatisticInt $stats ([string]$match.homeTeam.id) 'yellow_cards'
     $awayYellowCards = Get-StatisticInt $stats ([string]$match.awayTeam.id) 'yellow_cards'
     $homeRedCards = Get-StatisticInt $stats ([string]$match.homeTeam.id) 'red_cards'
