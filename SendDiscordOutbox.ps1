@@ -65,7 +65,7 @@ function Assert-StateCanAdvance([string]$SourcePath, [string]$TargetPath) {
     }
 
     $sourceState = Read-StateFile $SourcePath
-    $sourceMatches = Get-PostedMatches $sourceState
+    $sourceMatches = @(Get-PostedMatches $sourceState)
 
     if ([string]::IsNullOrWhiteSpace($TargetPath)) {
         return
@@ -77,7 +77,7 @@ function Assert-StateCanAdvance([string]$SourcePath, [string]$TargetPath) {
     }
 
     $targetState = Get-Content -LiteralPath $resolvedTarget -Raw | ConvertFrom-Json
-    $targetMatches = Get-PostedMatches $targetState
+    $targetMatches = @(Get-PostedMatches $targetState)
 
     $missing = @($targetMatches | Where-Object { $sourceMatches -notcontains $_ })
     if ($missing.Count -gt 0) {
@@ -101,7 +101,7 @@ function Get-QueueSortRecord([System.IO.FileInfo]$ItemFile) {
     if ($hasState) {
         try {
             $state = Read-StateFile $item.applyStateFrom
-            $stateMatchCount = (Get-PostedMatches $state).Count
+            $stateMatchCount = @((Get-PostedMatches $state)).Count
         } catch {
             $stateMatchCount = [int]::MaxValue
         }
