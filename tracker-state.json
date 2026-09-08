@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  10,
-                        "Thomas":  0,
+                        "Thomas":  5,
                         "Mark":  -5,
-                        "Rory":  -5
+                        "Rory":  -10
                     },
     "sideBets":  {
                      "pots":  {
@@ -37,15 +37,15 @@
                                            },
                      "goals":  {
                                    "Jack":  6,
-                                   "Thomas":  5,
+                                   "Thomas":  7,
                                    "Mark":  5,
-                                   "Rory":  2
+                                   "Rory":  3
                                },
                      "goalsConceded":  {
                                            "Jack":  3,
-                                           "Thomas":  5,
+                                           "Thomas":  6,
                                            "Mark":  7,
-                                           "Rory":  3
+                                           "Rory":  5
                                        },
                      "redCards":  {
                                       "Jack":  0,
@@ -55,9 +55,9 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  10,
-                                         "Thomas":  2,
+                                         "Thomas":  3,
                                          "Mark":  8,
-                                         "Rory":  3
+                                         "Rory":  6
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -71,7 +71,8 @@
                          "Aston Villa":  3,
                          "Borussia Dortmund":  3,
                          "Real Betis":  3,
-                         "Manchester City":  3
+                         "Manchester City":  3,
+                         "Real Madrid":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -83,7 +84,9 @@
                          "Lille":  2,
                          "Real Betis":  3,
                          "Porto":  0,
-                         "Manchester City":  2
+                         "Manchester City":  2,
+                         "Real Madrid":  2,
+                         "Inter":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -95,7 +98,9 @@
                              "Lille":  3,
                              "Real Betis":  2,
                              "Porto":  2,
-                             "Manchester City":  0
+                             "Manchester City":  0,
+                             "Real Madrid":  1,
+                             "Inter":  2
                          },
     "last16Teams":  [
 
@@ -108,6 +113,7 @@
                           "2026-09-08|LP|Club Brugge|Aston Villa|2-3",
                           "2026-09-08|LP|Borussia Dortmund|Villarreal|3-2",
                           "2026-09-08|LP|Lille|Real Betis|2-3",
-                          "2026-09-08|LP|Porto|Manchester City|0-2"
+                          "2026-09-08|LP|Porto|Manchester City|0-2",
+                          "2026-09-08|LP|Real Madrid|Inter|2-1"
                       ]
 }
