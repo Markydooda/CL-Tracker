@@ -2,8 +2,8 @@
     "balancesGBP":  {
                         "Jack":  10,
                         "Thomas":  5,
-                        "Mark":  0,
-                        "Rory":  -15
+                        "Mark":  -5,
+                        "Rory":  -10
                     },
     "sideBets":  {
                      "pots":  {
@@ -38,14 +38,14 @@
                      "goals":  {
                                    "Jack":  10,
                                    "Thomas":  10,
-                                   "Mark":  11,
-                                   "Rory":  11
+                                   "Mark":  12,
+                                   "Rory":  14
                                },
                      "goalsConceded":  {
                                            "Jack":  6,
                                            "Thomas":  10,
-                                           "Mark":  9,
-                                           "Rory":  17
+                                           "Mark":  12,
+                                           "Rory":  18
                                        },
                      "redCards":  {
                                       "Jack":  0,
@@ -56,8 +56,8 @@
                      "yellowCards":  {
                                          "Jack":  11,
                                          "Thomas":  7,
-                                         "Mark":  12,
-                                         "Rory":  8
+                                         "Mark":  16,
+                                         "Rory":  10
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -77,7 +77,8 @@
                          "Stuttgart":  3,
                          "Liverpool":  3,
                          "Arsenal":  3,
-                         "Paris Saint-Germain":  3
+                         "Paris Saint-Germain":  3,
+                         "Sporting CP":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -101,7 +102,9 @@
                          "Napoli":  0,
                          "Arsenal":  1,
                          "Paris Saint-Germain":  6,
-                         "Slovan Bratislava":  1
+                         "Slovan Bratislava":  1,
+                         "Sporting CP":  3,
+                         "Galatasaray":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -125,7 +128,9 @@
                              "Napoli":  1,
                              "Arsenal":  0,
                              "Paris Saint-Germain":  1,
-                             "Slovan Bratislava":  6
+                             "Slovan Bratislava":  6,
+                             "Sporting CP":  1,
+                             "Galatasaray":  3
                          },
     "last16Teams":  [
 
@@ -144,6 +149,7 @@
                           "2026-09-09|LP|Stuttgart|Viking|3-1",
                           "2026-09-09|LP|Liverpool|Atletico de Madrid|2-1",
                           "2026-09-09|LP|Napoli|Arsenal|0-1",
-                          "2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1"
+                          "2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1",
+                          "2026-09-09|LP|Sporting CP|Galatasaray|3-1"
                       ]
 }
