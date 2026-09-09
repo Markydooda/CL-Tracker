@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-09-09T19:00:00.0000000+00:00",
+    "matchDate":  "2026-09-09",
+    "stage":  "LP",
+    "homeTeam":  "Napoli",
+    "homeScore":  0,
+    "awayTeam":  "Arsenal",
+    "awayScore":  1,
+    "homeYellowCards":  2,
+    "awayYellowCards":  1,
+    "homeRedCards":  0,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049563\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049563",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}

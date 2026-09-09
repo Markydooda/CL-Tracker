@@ -1,7 +1,7 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  15,
-                        "Thomas":  0,
+                        "Jack":  10,
+                        "Thomas":  5,
                         "Mark":  0,
                         "Rory":  -15
                     },
@@ -36,14 +36,14 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  9,
-                                   "Thomas":  8,
+                                   "Jack":  10,
+                                   "Thomas":  10,
                                    "Mark":  10,
                                    "Rory":  4
                                },
                      "goalsConceded":  {
-                                           "Jack":  4,
-                                           "Thomas":  9,
+                                           "Jack":  6,
+                                           "Thomas":  10,
                                            "Mark":  8,
                                            "Rory":  10
                                        },
@@ -54,8 +54,8 @@
                                       "Rory":  0
                                   },
                      "yellowCards":  {
-                                         "Jack":  10,
-                                         "Thomas":  6,
+                                         "Jack":  11,
+                                         "Thomas":  7,
                                          "Mark":  9,
                                          "Rory":  7
                                      },
@@ -74,7 +74,8 @@
                          "Manchester City":  3,
                          "Real Madrid":  3,
                          "Barcelona":  3,
-                         "Stuttgart":  3
+                         "Stuttgart":  3,
+                         "Liverpool":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -92,7 +93,9 @@
                          "Barcelona":  5,
                          "Feyenoord":  1,
                          "Stuttgart":  3,
-                         "Viking":  1
+                         "Viking":  1,
+                         "Liverpool":  2,
+                         "Atletico de Madrid":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -110,7 +113,9 @@
                              "Barcelona":  1,
                              "Feyenoord":  5,
                              "Stuttgart":  1,
-                             "Viking":  3
+                             "Viking":  3,
+                             "Liverpool":  1,
+                             "Atletico de Madrid":  2
                          },
     "last16Teams":  [
 
@@ -126,6 +131,7 @@
                           "2026-09-08|LP|Porto|Manchester City|0-2",
                           "2026-09-08|LP|Real Madrid|Inter|2-1",
                           "2026-09-09|LP|Barcelona|Feyenoord|5-1",
-                          "2026-09-09|LP|Stuttgart|Viking|3-1"
+                          "2026-09-09|LP|Stuttgart|Viking|3-1",
+                          "2026-09-09|LP|Liverpool|Atletico de Madrid|2-1"
                       ]
 }
