@@ -38,13 +38,13 @@
                      "goals":  {
                                    "Jack":  10,
                                    "Thomas":  10,
-                                   "Mark":  10,
+                                   "Mark":  11,
                                    "Rory":  4
                                },
                      "goalsConceded":  {
                                            "Jack":  6,
                                            "Thomas":  10,
-                                           "Mark":  8,
+                                           "Mark":  9,
                                            "Rory":  10
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  11,
                                          "Thomas":  7,
-                                         "Mark":  9,
+                                         "Mark":  12,
                                          "Rory":  7
                                      },
                      "last16":  {
@@ -75,7 +75,8 @@
                          "Real Madrid":  3,
                          "Barcelona":  3,
                          "Stuttgart":  3,
-                         "Liverpool":  3
+                         "Liverpool":  3,
+                         "Arsenal":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -95,7 +96,9 @@
                          "Stuttgart":  3,
                          "Viking":  1,
                          "Liverpool":  2,
-                         "Atletico de Madrid":  1
+                         "Atletico de Madrid":  1,
+                         "Napoli":  0,
+                         "Arsenal":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -115,7 +118,9 @@
                              "Stuttgart":  1,
                              "Viking":  3,
                              "Liverpool":  1,
-                             "Atletico de Madrid":  2
+                             "Atletico de Madrid":  2,
+                             "Napoli":  1,
+                             "Arsenal":  0
                          },
     "last16Teams":  [
 
@@ -132,6 +137,7 @@
                           "2026-09-08|LP|Real Madrid|Inter|2-1",
                           "2026-09-09|LP|Barcelona|Feyenoord|5-1",
                           "2026-09-09|LP|Stuttgart|Viking|3-1",
-                          "2026-09-09|LP|Liverpool|Atletico de Madrid|2-1"
+                          "2026-09-09|LP|Liverpool|Atletico de Madrid|2-1",
+                          "2026-09-09|LP|Napoli|Arsenal|0-1"
                       ]
 }
