@@ -6,6 +6,10 @@ on:
     # where GitHub scheduled workflows are more likely to be delayed or dropped.
     - cron: "4 11 * * *"
       timezone: "Europe/London"
+    # Backup tick in case GitHub drops the first scheduled run. The date-based
+    # fixture request id makes this idempotent: if 11:04 posts, 11:24 skips.
+    - cron: "24 11 * * *"
+      timezone: "Europe/London"
   workflow_dispatch:
     inputs:
       window_start:
