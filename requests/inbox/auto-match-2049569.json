@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-09-10T19:00:00.0000000+00:00",
+    "matchDate":  "2026-09-10",
+    "stage":  "LP",
+    "homeTeam":  "Slavia Praha",
+    "homeScore":  2,
+    "awayTeam":  "Lens",
+    "awayScore":  3,
+    "homeYellowCards":  0,
+    "awayYellowCards":  1,
+    "homeRedCards":  2,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049569\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049569",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}

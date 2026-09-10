@@ -37,13 +37,13 @@
                                            },
                      "goals":  {
                                    "Jack":  10,
-                                   "Thomas":  11,
+                                   "Thomas":  16,
                                    "Mark":  12,
                                    "Rory":  15
                                },
                      "goalsConceded":  {
                                            "Jack":  6,
-                                           "Thomas":  11,
+                                           "Thomas":  16,
                                            "Mark":  12,
                                            "Rory":  19
                                        },
@@ -55,7 +55,7 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  11,
-                                         "Thomas":  15,
+                                         "Thomas":  20,
                                          "Mark":  16,
                                          "Rory":  13
                                      },
@@ -80,7 +80,8 @@
                          "Paris Saint-Germain":  3,
                          "Sporting CP":  3,
                          "PSV":  1,
-                         "Shakhtar":  1
+                         "Shakhtar":  1,
+                         "Como":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -108,7 +109,9 @@
                          "Sporting CP":  3,
                          "Galatasaray":  1,
                          "PSV":  1,
-                         "Shakhtar":  1
+                         "Shakhtar":  1,
+                         "Como":  4,
+                         "Leipzig":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -136,7 +139,9 @@
                              "Sporting CP":  1,
                              "Galatasaray":  3,
                              "PSV":  1,
-                             "Shakhtar":  1
+                             "Shakhtar":  1,
+                             "Como":  1,
+                             "Leipzig":  4
                          },
     "last16Teams":  [
 
@@ -157,6 +162,7 @@
                           "2026-09-09|LP|Napoli|Arsenal|0-1",
                           "2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1",
                           "2026-09-09|LP|Sporting CP|Galatasaray|3-1",
-                          "2026-09-10|LP|PSV|Shakhtar|1-1"
+                          "2026-09-10|LP|PSV|Shakhtar|1-1",
+                          "2026-09-10|LP|Como|Leipzig|4-1"
                       ]
 }
