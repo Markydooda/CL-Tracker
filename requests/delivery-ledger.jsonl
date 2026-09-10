@@ -12,3 +12,4 @@
 {"id":"2026-09-09|LP|Napoli|Arsenal|0-1","kind":"match","discordMessageId":"1547374648247844935","deliveredAt":"2026-09-09T22:34:25.4880640+00:00","requestFile":"auto-match-2049563.json"}
 {"id":"2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1","kind":"match","discordMessageId":"1547374658607652934","deliveredAt":"2026-09-09T22:34:27.7690482+00:00","requestFile":"auto-match-2049559.json"}
 {"id":"2026-09-09|LP|Sporting CP|Galatasaray|3-1","kind":"match","discordMessageId":"1547374667873128488","deliveredAt":"2026-09-09T22:34:29.9361297+00:00","requestFile":"auto-match-2049562.json"}
+{"id":"fixtures-2026-09-10","kind":"fixtures","discordMessageId":"1547609449559228416","deliveredAt":"2026-09-10T14:07:26.8073561+00:00","requestFile":"fixtures-2026-09-10.json"}
