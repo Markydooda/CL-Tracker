@@ -2,8 +2,8 @@
     "balancesGBP":  {
                         "Jack":  10,
                         "Thomas":  5,
-                        "Mark":  -5,
-                        "Rory":  -10
+                        "Mark":  -10,
+                        "Rory":  -5
                     },
     "sideBets":  {
                      "pots":  {
@@ -39,12 +39,12 @@
                                    "Jack":  10,
                                    "Thomas":  16,
                                    "Mark":  12,
-                                   "Rory":  15
+                                   "Rory":  19
                                },
                      "goalsConceded":  {
                                            "Jack":  6,
                                            "Thomas":  16,
-                                           "Mark":  12,
+                                           "Mark":  16,
                                            "Rory":  19
                                        },
                      "redCards":  {
@@ -56,8 +56,8 @@
                      "yellowCards":  {
                                          "Jack":  11,
                                          "Thomas":  20,
-                                         "Mark":  16,
-                                         "Rory":  13
+                                         "Mark":  17,
+                                         "Rory":  14
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -81,7 +81,8 @@
                          "Sporting CP":  3,
                          "PSV":  1,
                          "Shakhtar":  1,
-                         "Como":  3
+                         "Como":  3,
+                         "Manchester United":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -111,7 +112,9 @@
                          "PSV":  1,
                          "Shakhtar":  1,
                          "Como":  4,
-                         "Leipzig":  1
+                         "Leipzig":  1,
+                         "Manchester United":  4,
+                         "Sabah":  0
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -141,7 +144,9 @@
                              "PSV":  1,
                              "Shakhtar":  1,
                              "Como":  1,
-                             "Leipzig":  4
+                             "Leipzig":  4,
+                             "Manchester United":  0,
+                             "Sabah":  4
                          },
     "last16Teams":  [
 
@@ -163,6 +168,7 @@
                           "2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1",
                           "2026-09-09|LP|Sporting CP|Galatasaray|3-1",
                           "2026-09-10|LP|PSV|Shakhtar|1-1",
-                          "2026-09-10|LP|Como|Leipzig|4-1"
+                          "2026-09-10|LP|Como|Leipzig|4-1",
+                          "2026-09-10|LP|Manchester United|Sabah|4-0"
                       ]
 }
