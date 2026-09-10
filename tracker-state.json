@@ -37,15 +37,15 @@
                                            },
                      "goals":  {
                                    "Jack":  10,
-                                   "Thomas":  10,
+                                   "Thomas":  11,
                                    "Mark":  12,
-                                   "Rory":  14
+                                   "Rory":  15
                                },
                      "goalsConceded":  {
                                            "Jack":  6,
-                                           "Thomas":  10,
+                                           "Thomas":  11,
                                            "Mark":  12,
-                                           "Rory":  18
+                                           "Rory":  19
                                        },
                      "redCards":  {
                                       "Jack":  0,
@@ -55,9 +55,9 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  11,
-                                         "Thomas":  7,
+                                         "Thomas":  15,
                                          "Mark":  16,
-                                         "Rory":  10
+                                         "Rory":  13
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -78,7 +78,9 @@
                          "Liverpool":  3,
                          "Arsenal":  3,
                          "Paris Saint-Germain":  3,
-                         "Sporting CP":  3
+                         "Sporting CP":  3,
+                         "PSV":  1,
+                         "Shakhtar":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -104,7 +106,9 @@
                          "Paris Saint-Germain":  6,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  3,
-                         "Galatasaray":  1
+                         "Galatasaray":  1,
+                         "PSV":  1,
+                         "Shakhtar":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -130,7 +134,9 @@
                              "Paris Saint-Germain":  1,
                              "Slovan Bratislava":  6,
                              "Sporting CP":  1,
-                             "Galatasaray":  3
+                             "Galatasaray":  3,
+                             "PSV":  1,
+                             "Shakhtar":  1
                          },
     "last16Teams":  [
 
@@ -150,6 +156,7 @@
                           "2026-09-09|LP|Liverpool|Atletico de Madrid|2-1",
                           "2026-09-09|LP|Napoli|Arsenal|0-1",
                           "2026-09-09|LP|Paris Saint-Germain|Slovan Bratislava|6-1",
-                          "2026-09-09|LP|Sporting CP|Galatasaray|3-1"
+                          "2026-09-09|LP|Sporting CP|Galatasaray|3-1",
+                          "2026-09-10|LP|PSV|Shakhtar|1-1"
                       ]
 }
