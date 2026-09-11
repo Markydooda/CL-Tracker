@@ -65,6 +65,13 @@ foreach ($alias in $draft.aliases.PSObject.Properties) {
     $teamAliases[[string]$alias.Name] = [string]$alias.Value
 }
 
+$uefaTeamIdAliases = [System.Collections.Hashtable]::new([System.StringComparer]::OrdinalIgnoreCase)
+if ($null -ne $draft.PSObject.Properties['uefaTeamIds']) {
+    foreach ($alias in $draft.uefaTeamIds.PSObject.Properties) {
+        $uefaTeamIdAliases[[string]$alias.Name] = [string]$alias.Value
+    }
+}
+
 function Resolve-TeamName([string]$TeamName) {
     if ([string]::IsNullOrWhiteSpace($TeamName)) {
         return ''
@@ -83,20 +90,23 @@ function Get-UefaTeamCandidateValues([object]$Team) {
         return $values
     }
 
-    foreach ($propertyPath in @(
-        @('internationalName'),
-        @('translations', 'displayName', 'EN'),
-        @('translations', 'displayOfficialName', 'EN'),
-        @('translations', 'shortName', 'EN')
-    )) {
+    $propertyPaths = @(
+        ,@('internationalName'),
+        ,@('translations', 'displayName', 'EN'),
+        ,@('translations', 'displayOfficialName', 'EN'),
+        ,@('translations', 'shortName', 'EN')
+    )
+
+    foreach ($propertyPath in $propertyPaths) {
         $current = $Team
         foreach ($segment in $propertyPath) {
-            $property = $current.PSObject.Properties[$segment]
-            if ($null -eq $property) {
+            $propertyName = [string]$segment
+            $properties = @($current.PSObject.Properties | Where-Object { $_.Name -eq $propertyName } | Select-Object -First 1)
+            if ($properties.Count -eq 0) {
                 $current = $null
                 break
             }
-            $current = $property.Value
+            $current = $properties[0].Value
         }
 
         if ($null -ne $current -and -not [string]::IsNullOrWhiteSpace([string]$current)) {
@@ -108,6 +118,16 @@ function Get-UefaTeamCandidateValues([object]$Team) {
 }
 
 function Resolve-UefaTeam([object]$Team) {
+    $teamId = if ($null -ne $Team -and $null -ne $Team.PSObject.Properties['id']) {
+        [string]$Team.id
+    } else {
+        ''
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($teamId) -and $uefaTeamIdAliases.ContainsKey($teamId)) {
+        return [string]$uefaTeamIdAliases[$teamId]
+    }
+
     foreach ($candidate in Get-UefaTeamCandidateValues $Team) {
         $resolved = Resolve-TeamName $candidate
         if (-not [string]::IsNullOrWhiteSpace($resolved)) {
