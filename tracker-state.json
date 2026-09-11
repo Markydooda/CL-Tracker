@@ -36,13 +36,13 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  10,
+                                   "Jack":  12,
                                    "Thomas":  19,
                                    "Mark":  12,
                                    "Rory":  21
                                },
                      "goalsConceded":  {
-                                           "Jack":  6,
+                                           "Jack":  8,
                                            "Thomas":  18,
                                            "Mark":  16,
                                            "Rory":  22
@@ -54,7 +54,7 @@
                                       "Rory":  2
                                   },
                      "yellowCards":  {
-                                         "Jack":  11,
+                                         "Jack":  17,
                                          "Thomas":  21,
                                          "Mark":  17,
                                          "Rory":  14
@@ -83,7 +83,9 @@
                          "Shakhtar":  1,
                          "Como":  3,
                          "Manchester United":  3,
-                         "Lens":  3
+                         "Lens":  3,
+                         "Fenerbahce":  1,
+                         "Roma":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -117,7 +119,9 @@
                          "Manchester United":  4,
                          "Sabah":  0,
                          "Slavia Praha":  2,
-                         "Lens":  3
+                         "Lens":  3,
+                         "Fenerbahce":  1,
+                         "Roma":  1
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  0,
@@ -151,7 +155,9 @@
                              "Manchester United":  0,
                              "Sabah":  4,
                              "Slavia Praha":  3,
-                             "Lens":  2
+                             "Lens":  2,
+                             "Fenerbahce":  1,
+                             "Roma":  1
                          },
     "last16Teams":  [
 
@@ -175,6 +181,7 @@
                           "2026-09-10|LP|PSV|Shakhtar|1-1",
                           "2026-09-10|LP|Como|Leipzig|4-1",
                           "2026-09-10|LP|Manchester United|Sabah|4-0",
-                          "2026-09-10|LP|Slavia Praha|Lens|2-3"
+                          "2026-09-10|LP|Slavia Praha|Lens|2-3",
+                          "2026-09-10|LP|Fenerbahce|Roma|1-1"
                       ]
 }

@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-09-10T16:45:00.0000000+00:00",
+    "matchDate":  "2026-09-10",
+    "stage":  "LP",
+    "homeTeam":  "Fenerbahce",
+    "homeScore":  1,
+    "awayTeam":  "Roma",
+    "awayScore":  1,
+    "homeYellowCards":  4,
+    "awayYellowCards":  2,
+    "homeRedCards":  0,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049568\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049568",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}
