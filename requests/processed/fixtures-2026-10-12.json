@@ -1,0 +1,88 @@
+﻿{
+    "kind":  "fixtures",
+    "id":  "fixtures-2026-10-12",
+    "windowStart":  "2026-10-12T20:40:06.8577342+01:00",
+    "subtitle":  "Matchday 2 - UK and Las Vegas kickoff times",
+    "fixtures":  [
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Lens",
+                         "AwayTeam":  "Sporting CP",
+                         "UK":  "Tomorrow, 5:45 PM",
+                         "LasVegas":  "Tomorrow, 9:45 AM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Sabah",
+                         "AwayTeam":  "Slavia Praha",
+                         "UK":  "Tomorrow, 5:45 PM",
+                         "LasVegas":  "Tomorrow, 9:45 AM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Arsenal",
+                         "AwayTeam":  "Lille",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Atletico de Madrid",
+                         "AwayTeam":  "Manchester United",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Galatasaray",
+                         "AwayTeam":  "Barcelona",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Inter",
+                         "AwayTeam":  "Club Brugge",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Leipzig",
+                         "AwayTeam":  "PSV",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Viking",
+                         "AwayTeam":  "Bayern Munich",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     },
+                     {
+                         "Stage":  "LP",
+                         "HomeTeam":  "Villarreal",
+                         "AwayTeam":  "Napoli",
+                         "UK":  "Tomorrow, 8:00 PM",
+                         "LasVegas":  "Tomorrow, 12:00 PM"
+                     }
+                 ],
+    "sources":  [
+                    {
+                        "url":  "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/",
+                        "supports":  [
+                                         "fixtures",
+                                         "kickoff times",
+                                         "league phase"
+                                     ]
+                    },
+                    {
+                        "url":  "https://www.uefa.com/uefachampionsleague/fixtures-results/",
+                        "supports":  [
+                                         "fixtures",
+                                         "kickoff times"
+                                     ]
+                    }
+                ]
+}
