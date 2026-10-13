@@ -36,26 +36,26 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  19,
-                                   "Thomas":  20,
+                                   "Jack":  22,
+                                   "Thomas":  23,
                                    "Mark":  26,
                                    "Rory":  26
                                },
                      "goalsConceded":  {
-                                           "Jack":  8,
-                                           "Thomas":  23,
+                                           "Jack":  11,
+                                           "Thomas":  26,
                                            "Mark":  29,
                                            "Rory":  31
                                        },
                      "redCards":  {
-                                      "Jack":  0,
+                                      "Jack":  1,
                                       "Thomas":  1,
                                       "Mark":  1,
                                       "Rory":  3
                                   },
                      "yellowCards":  {
-                                         "Jack":  19,
-                                         "Thomas":  25,
+                                         "Jack":  24,
+                                         "Thomas":  27,
                                          "Mark":  31,
                                          "Rory":  22
                                      },
@@ -86,11 +86,12 @@
                          "Lens":  3,
                          "Fenerbahce":  1,
                          "Roma":  1,
-                         "Bayern Munich":  3,
+                         "Bayern Munich":  4,
                          "Sabah":  3,
                          "Atletico de Madrid":  3,
                          "Club Brugge":  3,
-                         "Leipzig":  3
+                         "Leipzig":  3,
+                         "Viking":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -108,7 +109,7 @@
                          "Barcelona":  9,
                          "Feyenoord":  1,
                          "Stuttgart":  3,
-                         "Viking":  1,
+                         "Viking":  4,
                          "Liverpool":  2,
                          "Atletico de Madrid":  3,
                          "Napoli":  0,
@@ -127,7 +128,7 @@
                          "Lens":  3,
                          "Fenerbahce":  1,
                          "Roma":  1,
-                         "Bayern Munich":  5,
+                         "Bayern Munich":  8,
                          "Bodo/Glimt":  0
                      },
     "teamGoalsAgainst":  {
@@ -146,7 +147,7 @@
                              "Barcelona":  2,
                              "Feyenoord":  5,
                              "Stuttgart":  1,
-                             "Viking":  3,
+                             "Viking":  6,
                              "Liverpool":  1,
                              "Atletico de Madrid":  2,
                              "Napoli":  1,
@@ -165,7 +166,7 @@
                              "Lens":  4,
                              "Fenerbahce":  1,
                              "Roma":  1,
-                             "Bayern Munich":  0,
+                             "Bayern Munich":  3,
                              "Bodo/Glimt":  5
                          },
     "last16Teams":  [
@@ -199,6 +200,7 @@
                           "2026-10-13|LP|Atletico de Madrid|Manchester United|2-0",
                           "2026-10-13|LP|Galatasaray|Barcelona|1-4",
                           "2026-10-13|LP|Inter|Club Brugge|3-4",
-                          "2026-10-13|LP|Leipzig|PSV|1-0"
+                          "2026-10-13|LP|Leipzig|PSV|1-0",
+                          "2026-10-13|LP|Viking|Bayern Munich|3-3"
                       ]
 }
