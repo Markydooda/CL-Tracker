@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-10-13T16:45:00.0000000+00:00",
+    "matchDate":  "2026-10-13",
+    "stage":  "LP",
+    "homeTeam":  "Sabah",
+    "homeScore":  2,
+    "awayTeam":  "Slavia Praha",
+    "awayScore":  0,
+    "homeYellowCards":  3,
+    "awayYellowCards":  2,
+    "homeRedCards":  0,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049579\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049579",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}

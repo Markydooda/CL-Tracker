@@ -21,3 +21,4 @@
 {"id":"2026-09-10|LP|Bayern Munich|Bodo/Glimt|5-0","kind":"match","discordMessageId":"1547886499113074749","deliveredAt":"2026-09-11T08:28:20.0928778+00:00","requestFile":"auto-match-2049565.json"}
 {"id":"fixtures-2026-10-12","kind":"fixtures","discordMessageId":"1559289598008631406","deliveredAt":"2026-10-12T19:40:10.7624639+00:00","requestFile":"fixtures-2026-10-12.json"}
 {"id":"fixtures-2026-10-13","kind":"fixtures","discordMessageId":"1559617944458231979","deliveredAt":"2026-10-13T17:24:54.8414540+00:00","requestFile":"fixtures-2026-10-13.json"}
+{"id":"2026-10-13|LP|Lens|Sporting CP|0-2","kind":"match","discordMessageId":"1559684947923574869","deliveredAt":"2026-10-13T21:51:09.7463505+00:00","requestFile":"auto-match-2049577.json"}
