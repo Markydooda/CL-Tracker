@@ -38,13 +38,13 @@
                      "goals":  {
                                    "Jack":  19,
                                    "Thomas":  19,
-                                   "Mark":  17,
+                                   "Mark":  22,
                                    "Rory":  23
                                },
                      "goalsConceded":  {
                                            "Jack":  8,
                                            "Thomas":  23,
-                                           "Mark":  21,
+                                           "Mark":  26,
                                            "Rory":  26
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  19,
                                          "Thomas":  24,
-                                         "Mark":  23,
+                                         "Mark":  25,
                                          "Rory":  18
                                      },
                      "last16":  {
@@ -73,7 +73,7 @@
                          "Real Betis":  3,
                          "Manchester City":  3,
                          "Real Madrid":  3,
-                         "Barcelona":  3,
+                         "Barcelona":  6,
                          "Stuttgart":  3,
                          "Liverpool":  3,
                          "Arsenal":  6,
@@ -103,7 +103,7 @@
                          "Manchester City":  2,
                          "Real Madrid":  2,
                          "Inter":  1,
-                         "Barcelona":  5,
+                         "Barcelona":  9,
                          "Feyenoord":  1,
                          "Stuttgart":  3,
                          "Viking":  1,
@@ -114,7 +114,7 @@
                          "Paris Saint-Germain":  6,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  5,
-                         "Galatasaray":  1,
+                         "Galatasaray":  2,
                          "PSV":  1,
                          "Shakhtar":  1,
                          "Como":  4,
@@ -141,7 +141,7 @@
                              "Manchester City":  0,
                              "Real Madrid":  1,
                              "Inter":  2,
-                             "Barcelona":  1,
+                             "Barcelona":  2,
                              "Feyenoord":  5,
                              "Stuttgart":  1,
                              "Viking":  3,
@@ -152,7 +152,7 @@
                              "Paris Saint-Germain":  1,
                              "Slovan Bratislava":  6,
                              "Sporting CP":  1,
-                             "Galatasaray":  3,
+                             "Galatasaray":  7,
                              "PSV":  1,
                              "Shakhtar":  1,
                              "Como":  1,
@@ -194,6 +194,7 @@
                           "2026-10-13|LP|Lens|Sporting CP|0-2",
                           "2026-10-13|LP|Sabah|Slavia Praha|2-0",
                           "2026-10-13|LP|Arsenal|Lille|3-0",
-                          "2026-10-13|LP|Atletico de Madrid|Manchester United|2-0"
+                          "2026-10-13|LP|Atletico de Madrid|Manchester United|2-0",
+                          "2026-10-13|LP|Galatasaray|Barcelona|1-4"
                       ]
 }
