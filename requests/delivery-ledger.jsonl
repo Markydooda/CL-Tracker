@@ -23,3 +23,4 @@
 {"id":"fixtures-2026-10-13","kind":"fixtures","discordMessageId":"1559617944458231979","deliveredAt":"2026-10-13T17:24:54.8414540+00:00","requestFile":"fixtures-2026-10-13.json"}
 {"id":"2026-10-13|LP|Lens|Sporting CP|0-2","kind":"match","discordMessageId":"1559684947923574869","deliveredAt":"2026-10-13T21:51:09.7463505+00:00","requestFile":"auto-match-2049577.json"}
 {"id":"2026-10-13|LP|Sabah|Slavia Praha|2-0","kind":"match","discordMessageId":"1559684958455599175","deliveredAt":"2026-10-13T21:51:12.0314583+00:00","requestFile":"auto-match-2049579.json"}
+{"id":"2026-10-13|LP|Arsenal|Lille|3-0","kind":"match","discordMessageId":"1559684966994935808","deliveredAt":"2026-10-13T21:51:14.2152761+00:00","requestFile":"auto-match-2049572.json"}

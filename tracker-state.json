@@ -1,8 +1,8 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  15,
-                        "Thomas":  5,
-                        "Mark":  -10,
+                        "Thomas":  0,
+                        "Mark":  -5,
                         "Rory":  -10
                     },
     "sideBets":  {
@@ -38,12 +38,12 @@
                      "goals":  {
                                    "Jack":  17,
                                    "Thomas":  19,
-                                   "Mark":  14,
+                                   "Mark":  17,
                                    "Rory":  23
                                },
                      "goalsConceded":  {
                                            "Jack":  8,
-                                           "Thomas":  20,
+                                           "Thomas":  23,
                                            "Mark":  21,
                                            "Rory":  24
                                        },
@@ -55,8 +55,8 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  17,
-                                         "Thomas":  23,
-                                         "Mark":  21,
+                                         "Thomas":  24,
+                                         "Mark":  23,
                                          "Rory":  17
                                      },
                      "last16":  {
@@ -76,7 +76,7 @@
                          "Barcelona":  3,
                          "Stuttgart":  3,
                          "Liverpool":  3,
-                         "Arsenal":  3,
+                         "Arsenal":  6,
                          "Paris Saint-Germain":  3,
                          "Sporting CP":  6,
                          "PSV":  1,
@@ -109,7 +109,7 @@
                          "Liverpool":  2,
                          "Atletico de Madrid":  1,
                          "Napoli":  0,
-                         "Arsenal":  1,
+                         "Arsenal":  4,
                          "Paris Saint-Germain":  6,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  5,
@@ -134,7 +134,7 @@
                              "Aston Villa":  2,
                              "Borussia Dortmund":  2,
                              "Villarreal":  3,
-                             "Lille":  3,
+                             "Lille":  6,
                              "Real Betis":  2,
                              "Porto":  2,
                              "Manchester City":  0,
@@ -191,6 +191,7 @@
                           "2026-09-10|LP|Fenerbahce|Roma|1-1",
                           "2026-09-10|LP|Bayern Munich|Bodo/Glimt|5-0",
                           "2026-10-13|LP|Lens|Sporting CP|0-2",
-                          "2026-10-13|LP|Sabah|Slavia Praha|2-0"
+                          "2026-10-13|LP|Sabah|Slavia Praha|2-0",
+                          "2026-10-13|LP|Arsenal|Lille|3-0"
                       ]
 }
