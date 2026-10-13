@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  20,
-                        "Thomas":  0,
+                        "Thomas":  5,
                         "Mark":  0,
-                        "Rory":  -20
+                        "Rory":  -25
                     },
     "sideBets":  {
                      "pots":  {
@@ -37,7 +37,7 @@
                                            },
                      "goals":  {
                                    "Jack":  19,
-                                   "Thomas":  19,
+                                   "Thomas":  20,
                                    "Mark":  26,
                                    "Rory":  26
                                },
@@ -45,7 +45,7 @@
                                            "Jack":  8,
                                            "Thomas":  23,
                                            "Mark":  29,
-                                           "Rory":  30
+                                           "Rory":  31
                                        },
                      "redCards":  {
                                       "Jack":  0,
@@ -55,9 +55,9 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  19,
-                                         "Thomas":  24,
+                                         "Thomas":  25,
                                          "Mark":  31,
-                                         "Rory":  20
+                                         "Rory":  22
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -89,7 +89,8 @@
                          "Bayern Munich":  3,
                          "Sabah":  3,
                          "Atletico de Madrid":  3,
-                         "Club Brugge":  3
+                         "Club Brugge":  3,
+                         "Leipzig":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -119,7 +120,7 @@
                          "PSV":  1,
                          "Shakhtar":  1,
                          "Como":  4,
-                         "Leipzig":  1,
+                         "Leipzig":  2,
                          "Manchester United":  4,
                          "Sabah":  2,
                          "Slavia Praha":  2,
@@ -154,7 +155,7 @@
                              "Slovan Bratislava":  6,
                              "Sporting CP":  1,
                              "Galatasaray":  7,
-                             "PSV":  1,
+                             "PSV":  2,
                              "Shakhtar":  1,
                              "Como":  1,
                              "Leipzig":  4,
@@ -197,6 +198,7 @@
                           "2026-10-13|LP|Arsenal|Lille|3-0",
                           "2026-10-13|LP|Atletico de Madrid|Manchester United|2-0",
                           "2026-10-13|LP|Galatasaray|Barcelona|1-4",
-                          "2026-10-13|LP|Inter|Club Brugge|3-4"
+                          "2026-10-13|LP|Inter|Club Brugge|3-4",
+                          "2026-10-13|LP|Leipzig|PSV|1-0"
                       ]
 }
