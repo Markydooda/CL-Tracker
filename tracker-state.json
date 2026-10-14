@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  10,
+                        "Jack":  5,
                         "Thomas":  0,
                         "Mark":  5,
-                        "Rory":  -15
+                        "Rory":  -10
                     },
     "sideBets":  {
                      "pots":  {
@@ -36,16 +36,16 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  25,
+                                   "Jack":  27,
                                    "Thomas":  31,
                                    "Mark":  34,
-                                   "Rory":  32
+                                   "Rory":  36
                                },
                      "goalsConceded":  {
-                                           "Jack":  23,
+                                           "Jack":  27,
                                            "Thomas":  33,
                                            "Mark":  32,
-                                           "Rory":  34
+                                           "Rory":  36
                                        },
                      "redCards":  {
                                       "Jack":  1,
@@ -54,10 +54,10 @@
                                       "Rory":  3
                                   },
                      "yellowCards":  {
-                                         "Jack":  27,
+                                         "Jack":  28,
                                          "Thomas":  32,
                                          "Mark":  34,
-                                         "Rory":  26
+                                         "Rory":  27
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -77,7 +77,7 @@
                          "Stuttgart":  3,
                          "Liverpool":  6,
                          "Arsenal":  6,
-                         "Paris Saint-Germain":  3,
+                         "Paris Saint-Germain":  6,
                          "Sporting CP":  6,
                          "PSV":  1,
                          "Shakhtar":  1,
@@ -106,7 +106,7 @@
                          "Lille":  2,
                          "Real Betis":  3,
                          "Porto":  0,
-                         "Manchester City":  2,
+                         "Manchester City":  4,
                          "Real Madrid":  2,
                          "Inter":  4,
                          "Barcelona":  9,
@@ -117,7 +117,7 @@
                          "Atletico de Madrid":  3,
                          "Napoli":  1,
                          "Arsenal":  4,
-                         "Paris Saint-Germain":  6,
+                         "Paris Saint-Germain":  10,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  5,
                          "Galatasaray":  2,
@@ -144,7 +144,7 @@
                              "Lille":  6,
                              "Real Betis":  2,
                              "Porto":  2,
-                             "Manchester City":  0,
+                             "Manchester City":  4,
                              "Real Madrid":  1,
                              "Inter":  6,
                              "Barcelona":  2,
@@ -155,7 +155,7 @@
                              "Atletico de Madrid":  2,
                              "Napoli":  4,
                              "Arsenal":  0,
-                             "Paris Saint-Germain":  1,
+                             "Paris Saint-Germain":  3,
                              "Slovan Bratislava":  6,
                              "Sporting CP":  1,
                              "Galatasaray":  7,
@@ -209,6 +209,7 @@
                           "2026-10-14|LP|Feyenoord|Como|3-2",
                           "2026-10-14|LP|LASK|Liverpool|3-6",
                           "2026-10-14|LP|Aston Villa|Fenerbahce|6-0",
-                          "2026-10-14|LP|Bodo/Glimt|Borussia Dortmund|1-0"
+                          "2026-10-14|LP|Bodo/Glimt|Borussia Dortmund|1-0",
+                          "2026-10-14|LP|Manchester City|Paris Saint-Germain|2-4"
                       ]
 }
