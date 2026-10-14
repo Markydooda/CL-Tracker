@@ -1,7 +1,7 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  10,
-                        "Thomas":  0,
+                        "Jack":  5,
+                        "Thomas":  5,
                         "Mark":  0,
                         "Rory":  -10
                     },
@@ -36,14 +36,14 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  30,
-                                   "Thomas":  31,
+                                   "Jack":  33,
+                                   "Thomas":  35,
                                    "Mark":  36,
                                    "Rory":  36
                                },
                      "goalsConceded":  {
-                                           "Jack":  29,
-                                           "Thomas":  33,
+                                           "Jack":  33,
+                                           "Thomas":  36,
                                            "Mark":  35,
                                            "Rory":  36
                                        },
@@ -54,8 +54,8 @@
                                       "Rory":  3
                                   },
                      "yellowCards":  {
-                                         "Jack":  32,
-                                         "Thomas":  32,
+                                         "Jack":  35,
+                                         "Thomas":  33,
                                          "Mark":  39,
                                          "Rory":  27
                                      },
@@ -72,7 +72,7 @@
                          "Borussia Dortmund":  3,
                          "Real Betis":  6,
                          "Manchester City":  3,
-                         "Real Madrid":  3,
+                         "Real Madrid":  6,
                          "Barcelona":  6,
                          "Stuttgart":  3,
                          "Liverpool":  6,
@@ -107,7 +107,7 @@
                          "Real Betis":  6,
                          "Porto":  2,
                          "Manchester City":  4,
-                         "Real Madrid":  2,
+                         "Real Madrid":  6,
                          "Inter":  4,
                          "Barcelona":  9,
                          "Feyenoord":  4,
@@ -130,7 +130,7 @@
                          "Slavia Praha":  2,
                          "Lens":  3,
                          "Fenerbahce":  1,
-                         "Roma":  1,
+                         "Roma":  4,
                          "Bayern Munich":  8,
                          "Bodo/Glimt":  1
                      },
@@ -145,7 +145,7 @@
                              "Real Betis":  4,
                              "Porto":  5,
                              "Manchester City":  4,
-                             "Real Madrid":  1,
+                             "Real Madrid":  4,
                              "Inter":  6,
                              "Barcelona":  2,
                              "Feyenoord":  7,
@@ -168,7 +168,7 @@
                              "Slavia Praha":  5,
                              "Lens":  4,
                              "Fenerbahce":  7,
-                             "Roma":  1,
+                             "Roma":  5,
                              "Bayern Munich":  3,
                              "Bodo/Glimt":  5
                          },
@@ -211,6 +211,7 @@
                           "2026-10-14|LP|Aston Villa|Fenerbahce|6-0",
                           "2026-10-14|LP|Bodo/Glimt|Borussia Dortmund|1-0",
                           "2026-10-14|LP|Manchester City|Paris Saint-Germain|2-4",
-                          "2026-10-14|LP|Real Betis|Porto|3-2"
+                          "2026-10-14|LP|Real Betis|Porto|3-2",
+                          "2026-10-14|LP|Roma|Real Madrid|3-4"
                       ]
 }
