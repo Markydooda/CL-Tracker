@@ -33,3 +33,4 @@
 {"id":"fixtures-2026-10-14","kind":"fixtures","discordMessageId":"1559942670929887252","deliveredAt":"2026-10-14T14:55:15.5847053+00:00","requestFile":"fixtures-2026-10-14.json"}
 {"id":"2026-10-14|LP|Feyenoord|Como|3-2","kind":"match","discordMessageId":"1560030062051459173","deliveredAt":"2026-10-14T20:42:31.1595499+00:00","requestFile":"auto-match-2049584.json"}
 {"id":"2026-10-14|LP|LASK|Liverpool|3-6","kind":"match","discordMessageId":"1560030071912272005","deliveredAt":"2026-10-14T20:42:33.4430111+00:00","requestFile":"auto-match-2049588.json"}
+{"id":"2026-10-14|LP|Aston Villa|Fenerbahce|6-0","kind":"match","discordMessageId":"1560071795283988550","deliveredAt":"2026-10-14T23:28:21.1048778+00:00","requestFile":"auto-match-2049582.json"}
