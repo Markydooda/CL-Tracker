@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  20,
-                        "Thomas":  5,
+                        "Thomas":  0,
                         "Mark":  -5,
-                        "Rory":  -20
+                        "Rory":  -15
                     },
     "sideBets":  {
                      "pots":  {
@@ -37,15 +37,15 @@
                                            },
                      "goals":  {
                                    "Jack":  22,
-                                   "Thomas":  23,
+                                   "Thomas":  25,
                                    "Mark":  27,
-                                   "Rory":  29
+                                   "Rory":  32
                                },
                      "goalsConceded":  {
                                            "Jack":  11,
-                                           "Thomas":  26,
+                                           "Thomas":  29,
                                            "Mark":  32,
-                                           "Rory":  32
+                                           "Rory":  34
                                        },
                      "redCards":  {
                                       "Jack":  1,
@@ -55,9 +55,9 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  24,
-                                         "Thomas":  27,
+                                         "Thomas":  30,
                                          "Mark":  34,
-                                         "Rory":  24
+                                         "Rory":  26
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -92,7 +92,8 @@
                          "Club Brugge":  3,
                          "Leipzig":  3,
                          "Viking":  1,
-                         "Villarreal":  3
+                         "Villarreal":  3,
+                         "Feyenoord":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  1,
@@ -108,7 +109,7 @@
                          "Real Madrid":  2,
                          "Inter":  4,
                          "Barcelona":  9,
-                         "Feyenoord":  1,
+                         "Feyenoord":  4,
                          "Stuttgart":  3,
                          "Viking":  4,
                          "Liverpool":  2,
@@ -121,7 +122,7 @@
                          "Galatasaray":  2,
                          "PSV":  1,
                          "Shakhtar":  1,
-                         "Como":  4,
+                         "Como":  6,
                          "Leipzig":  2,
                          "Manchester United":  4,
                          "Sabah":  2,
@@ -146,7 +147,7 @@
                              "Real Madrid":  1,
                              "Inter":  6,
                              "Barcelona":  2,
-                             "Feyenoord":  5,
+                             "Feyenoord":  7,
                              "Stuttgart":  1,
                              "Viking":  6,
                              "Liverpool":  1,
@@ -159,7 +160,7 @@
                              "Galatasaray":  7,
                              "PSV":  2,
                              "Shakhtar":  1,
-                             "Como":  1,
+                             "Como":  4,
                              "Leipzig":  4,
                              "Manchester United":  2,
                              "Sabah":  4,
@@ -203,6 +204,7 @@
                           "2026-10-13|LP|Inter|Club Brugge|3-4",
                           "2026-10-13|LP|Leipzig|PSV|1-0",
                           "2026-10-13|LP|Viking|Bayern Munich|3-3",
-                          "2026-10-13|LP|Villarreal|Napoli|3-1"
+                          "2026-10-13|LP|Villarreal|Napoli|3-1",
+                          "2026-10-14|LP|Feyenoord|Como|3-2"
                       ]
 }
