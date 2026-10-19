@@ -40,3 +40,4 @@
 {"id":"2026-10-14|LP|Roma|Real Madrid|3-4","kind":"match","discordMessageId":"1560071831191421031","deliveredAt":"2026-10-14T23:28:30.2983749+00:00","requestFile":"auto-match-2049581.json"}
 {"id":"2026-10-14|LP|Shakhtar|AEK Athens|3-1","kind":"match","discordMessageId":"1560071841077272617","deliveredAt":"2026-10-14T23:28:31.9621187+00:00","requestFile":"auto-match-2049586.json"}
 {"id":"2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3","kind":"match","discordMessageId":"1560071849218408519","deliveredAt":"2026-10-14T23:28:33.8144285+00:00","requestFile":"auto-match-2049587.json"}
+{"id":"fixtures-2026-10-19","kind":"fixtures","discordMessageId":"1561783667242569829","deliveredAt":"2026-10-19T16:50:43.2709745+00:00","requestFile":"fixtures-2026-10-19.json"}
