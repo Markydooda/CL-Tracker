@@ -42,3 +42,4 @@
 {"id":"2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3","kind":"match","discordMessageId":"1560071849218408519","deliveredAt":"2026-10-14T23:28:33.8144285+00:00","requestFile":"auto-match-2049587.json"}
 {"id":"fixtures-2026-10-19","kind":"fixtures","discordMessageId":"1561783667242569829","deliveredAt":"2026-10-19T16:50:43.2709745+00:00","requestFile":"fixtures-2026-10-19.json"}
 {"id":"fixtures-2026-10-20","kind":"fixtures","discordMessageId":"1562114771166302388","deliveredAt":"2026-10-20T14:46:24.5984552+00:00","requestFile":"fixtures-2026-10-20.json"}
+{"id":"2026-10-20|LP|Fenerbahce|Slavia Praha|2-2","kind":"match","discordMessageId":"1562202728351014922","deliveredAt":"2026-10-20T20:35:55.5548282+00:00","requestFile":"auto-match-2049595.json"}

@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-10-20T16:45:00.0000000+00:00",
+    "matchDate":  "2026-10-20",
+    "stage":  "LP",
+    "homeTeam":  "Sabah",
+    "homeScore":  1,
+    "awayTeam":  "Borussia Dortmund",
+    "awayScore":  2,
+    "homeYellowCards":  4,
+    "awayYellowCards":  0,
+    "homeRedCards":  0,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049597\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049597",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}

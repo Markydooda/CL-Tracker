@@ -36,16 +36,16 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  37,
+                                   "Jack":  39,
                                    "Thomas":  38,
                                    "Mark":  36,
-                                   "Rory":  36
+                                   "Rory":  38
                                },
                      "goalsConceded":  {
-                                           "Jack":  36,
+                                           "Jack":  38,
                                            "Thomas":  37,
                                            "Mark":  35,
-                                           "Rory":  39
+                                           "Rory":  41
                                        },
                      "redCards":  {
                                       "Jack":  1,
@@ -54,10 +54,10 @@
                                       "Rory":  3
                                   },
                      "yellowCards":  {
-                                         "Jack":  42,
+                                         "Jack":  45,
                                          "Thomas":  34,
                                          "Mark":  39,
-                                         "Rory":  28
+                                         "Rory":  31
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -84,7 +84,7 @@
                          "Como":  3,
                          "Manchester United":  3,
                          "Lens":  3,
-                         "Fenerbahce":  1,
+                         "Fenerbahce":  2,
                          "Roma":  1,
                          "Bayern Munich":  4,
                          "Sabah":  3,
@@ -94,7 +94,8 @@
                          "Viking":  1,
                          "Villarreal":  3,
                          "Feyenoord":  3,
-                         "Bodo/Glimt":  3
+                         "Bodo/Glimt":  3,
+                         "Slavia Praha":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  2,
@@ -127,9 +128,9 @@
                          "Leipzig":  2,
                          "Manchester United":  4,
                          "Sabah":  2,
-                         "Slavia Praha":  2,
+                         "Slavia Praha":  4,
                          "Lens":  3,
-                         "Fenerbahce":  1,
+                         "Fenerbahce":  3,
                          "Roma":  4,
                          "Bayern Munich":  8,
                          "Bodo/Glimt":  1
@@ -165,9 +166,9 @@
                              "Leipzig":  4,
                              "Manchester United":  2,
                              "Sabah":  4,
-                             "Slavia Praha":  5,
+                             "Slavia Praha":  7,
                              "Lens":  4,
-                             "Fenerbahce":  7,
+                             "Fenerbahce":  9,
                              "Roma":  5,
                              "Bayern Munich":  3,
                              "Bodo/Glimt":  5
@@ -214,6 +215,7 @@
                           "2026-10-14|LP|Real Betis|Porto|3-2",
                           "2026-10-14|LP|Roma|Real Madrid|3-4",
                           "2026-10-14|LP|Shakhtar|AEK Athens|3-1",
-                          "2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3"
+                          "2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3",
+                          "2026-10-20|LP|Fenerbahce|Slavia Praha|2-2"
                       ]
 }
