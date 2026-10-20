@@ -38,13 +38,13 @@
                      "goals":  {
                                    "Jack":  45,
                                    "Thomas":  44,
-                                   "Mark":  37,
+                                   "Mark":  44,
                                    "Rory":  41
                                },
                      "goalsConceded":  {
                                            "Jack":  44,
                                            "Thomas":  41,
-                                           "Mark":  37,
+                                           "Mark":  44,
                                            "Rory":  45
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  46,
                                          "Thomas":  34,
-                                         "Mark":  43,
+                                         "Mark":  46,
                                          "Rory":  33
                                      },
                      "last16":  {
@@ -95,7 +95,8 @@
                          "Villarreal":  3,
                          "Feyenoord":  3,
                          "Bodo/Glimt":  3,
-                         "Slavia Praha":  1
+                         "Slavia Praha":  1,
+                         "Napoli":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  3,
@@ -116,7 +117,7 @@
                          "Viking":  4,
                          "Liverpool":  12,
                          "Atletico de Madrid":  3,
-                         "Napoli":  1,
+                         "Napoli":  5,
                          "Arsenal":  4,
                          "Paris Saint-Germain":  10,
                          "Slovan Bratislava":  1,
@@ -133,7 +134,7 @@
                          "Fenerbahce":  3,
                          "Roma":  4,
                          "Bayern Munich":  8,
-                         "Bodo/Glimt":  1
+                         "Bodo/Glimt":  4
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  8,
@@ -154,7 +155,7 @@
                              "Viking":  6,
                              "Liverpool":  7,
                              "Atletico de Madrid":  2,
-                             "Napoli":  4,
+                             "Napoli":  7,
                              "Arsenal":  0,
                              "Paris Saint-Germain":  3,
                              "Slovan Bratislava":  9,
@@ -171,7 +172,7 @@
                              "Fenerbahce":  9,
                              "Roma":  5,
                              "Bayern Munich":  3,
-                             "Bodo/Glimt":  5
+                             "Bodo/Glimt":  9
                          },
     "last16Teams":  [
 
@@ -219,6 +220,7 @@
                           "2026-10-20|LP|Fenerbahce|Slavia Praha|2-2",
                           "2026-10-20|LP|Sabah|Borussia Dortmund|1-2",
                           "2026-10-20|LP|Liverpool|Villarreal|4-3",
-                          "2026-10-20|LP|Manchester City|AEK Athens|5-1"
+                          "2026-10-20|LP|Manchester City|AEK Athens|5-1",
+                          "2026-10-20|LP|Napoli|Bodo/Glimt|4-3"
                       ]
 }
