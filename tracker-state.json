@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  5,
-                        "Thomas":  15,
+                        "Thomas":  20,
                         "Mark":  -5,
-                        "Rory":  -15
+                        "Rory":  -20
                     },
     "sideBets":  {
                      "pots":  {
@@ -37,15 +37,15 @@
                                            },
                      "goals":  {
                                    "Jack":  39,
-                                   "Thomas":  40,
+                                   "Thomas":  44,
                                    "Mark":  37,
-                                   "Rory":  38
+                                   "Rory":  41
                                },
                      "goalsConceded":  {
                                            "Jack":  38,
-                                           "Thomas":  38,
+                                           "Thomas":  41,
                                            "Mark":  37,
-                                           "Rory":  41
+                                           "Rory":  45
                                        },
                      "redCards":  {
                                       "Jack":  1,
@@ -57,7 +57,7 @@
                                          "Jack":  45,
                                          "Thomas":  34,
                                          "Mark":  43,
-                                         "Rory":  31
+                                         "Rory":  33
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -75,7 +75,7 @@
                          "Real Madrid":  6,
                          "Barcelona":  6,
                          "Stuttgart":  6,
-                         "Liverpool":  6,
+                         "Liverpool":  9,
                          "Arsenal":  6,
                          "Paris Saint-Germain":  6,
                          "Sporting CP":  6,
@@ -103,7 +103,7 @@
                          "Club Brugge":  6,
                          "Aston Villa":  9,
                          "Borussia Dortmund":  5,
-                         "Villarreal":  5,
+                         "Villarreal":  8,
                          "Lille":  2,
                          "Real Betis":  6,
                          "Porto":  2,
@@ -114,7 +114,7 @@
                          "Feyenoord":  4,
                          "Stuttgart":  6,
                          "Viking":  4,
-                         "Liverpool":  8,
+                         "Liverpool":  12,
                          "Atletico de Madrid":  3,
                          "Napoli":  1,
                          "Arsenal":  4,
@@ -141,7 +141,7 @@
                              "Club Brugge":  6,
                              "Aston Villa":  2,
                              "Borussia Dortmund":  4,
-                             "Villarreal":  4,
+                             "Villarreal":  8,
                              "Lille":  6,
                              "Real Betis":  4,
                              "Porto":  5,
@@ -152,7 +152,7 @@
                              "Feyenoord":  7,
                              "Stuttgart":  1,
                              "Viking":  6,
-                             "Liverpool":  4,
+                             "Liverpool":  7,
                              "Atletico de Madrid":  2,
                              "Napoli":  4,
                              "Arsenal":  0,
@@ -217,6 +217,7 @@
                           "2026-10-14|LP|Shakhtar|AEK Athens|3-1",
                           "2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3",
                           "2026-10-20|LP|Fenerbahce|Slavia Praha|2-2",
-                          "2026-10-20|LP|Sabah|Borussia Dortmund|1-2"
+                          "2026-10-20|LP|Sabah|Borussia Dortmund|1-2",
+                          "2026-10-20|LP|Liverpool|Villarreal|4-3"
                       ]
 }

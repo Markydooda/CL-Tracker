@@ -44,3 +44,4 @@
 {"id":"fixtures-2026-10-20","kind":"fixtures","discordMessageId":"1562114771166302388","deliveredAt":"2026-10-20T14:46:24.5984552+00:00","requestFile":"fixtures-2026-10-20.json"}
 {"id":"2026-10-20|LP|Fenerbahce|Slavia Praha|2-2","kind":"match","discordMessageId":"1562202728351014922","deliveredAt":"2026-10-20T20:35:55.5548282+00:00","requestFile":"auto-match-2049595.json"}
 {"id":"2026-10-20|LP|Sabah|Borussia Dortmund|1-2","kind":"match","discordMessageId":"1562202740153917483","deliveredAt":"2026-10-20T20:35:57.9650085+00:00","requestFile":"auto-match-2049597.json"}
+{"id":"2026-10-20|LP|Liverpool|Villarreal|4-3","kind":"match","discordMessageId":"1562245404140118116","deliveredAt":"2026-10-20T23:25:29.8371353+00:00","requestFile":"auto-match-2049590.json"}
