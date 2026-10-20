@@ -36,13 +36,13 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  39,
+                                   "Jack":  45,
                                    "Thomas":  44,
                                    "Mark":  37,
                                    "Rory":  41
                                },
                      "goalsConceded":  {
-                                           "Jack":  38,
+                                           "Jack":  44,
                                            "Thomas":  41,
                                            "Mark":  37,
                                            "Rory":  45
@@ -54,7 +54,7 @@
                                       "Rory":  3
                                   },
                      "yellowCards":  {
-                                         "Jack":  45,
+                                         "Jack":  46,
                                          "Thomas":  34,
                                          "Mark":  43,
                                          "Rory":  33
@@ -71,7 +71,7 @@
                          "Aston Villa":  6,
                          "Borussia Dortmund":  6,
                          "Real Betis":  6,
-                         "Manchester City":  3,
+                         "Manchester City":  6,
                          "Real Madrid":  6,
                          "Barcelona":  6,
                          "Stuttgart":  6,
@@ -98,7 +98,7 @@
                          "Slavia Praha":  1
                      },
     "teamGoalsFor":  {
-                         "AEK Athens":  2,
+                         "AEK Athens":  3,
                          "LASK":  3,
                          "Club Brugge":  6,
                          "Aston Villa":  9,
@@ -107,7 +107,7 @@
                          "Lille":  2,
                          "Real Betis":  6,
                          "Porto":  2,
-                         "Manchester City":  4,
+                         "Manchester City":  9,
                          "Real Madrid":  6,
                          "Inter":  4,
                          "Barcelona":  9,
@@ -136,7 +136,7 @@
                          "Bodo/Glimt":  1
                      },
     "teamGoalsAgainst":  {
-                             "AEK Athens":  3,
+                             "AEK Athens":  8,
                              "LASK":  7,
                              "Club Brugge":  6,
                              "Aston Villa":  2,
@@ -145,7 +145,7 @@
                              "Lille":  6,
                              "Real Betis":  4,
                              "Porto":  5,
-                             "Manchester City":  4,
+                             "Manchester City":  5,
                              "Real Madrid":  4,
                              "Inter":  6,
                              "Barcelona":  2,
@@ -218,6 +218,7 @@
                           "2026-10-14|LP|Slovan Bratislava|Stuttgart|0-3",
                           "2026-10-20|LP|Fenerbahce|Slavia Praha|2-2",
                           "2026-10-20|LP|Sabah|Borussia Dortmund|1-2",
-                          "2026-10-20|LP|Liverpool|Villarreal|4-3"
+                          "2026-10-20|LP|Liverpool|Villarreal|4-3",
+                          "2026-10-20|LP|Manchester City|AEK Athens|5-1"
                       ]
 }
