@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  15,
+                        "Jack":  20,
                         "Thomas":  5,
                         "Mark":  0,
-                        "Rory":  -20
+                        "Rory":  -25
                     },
     "sideBets":  {
                      "pots":  {
@@ -36,16 +36,16 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  54,
+                                   "Jack":  57,
                                    "Thomas":  56,
                                    "Mark":  58,
-                                   "Rory":  48
+                                   "Rory":  50
                                },
                      "goalsConceded":  {
-                                           "Jack":  48,
+                                           "Jack":  50,
                                            "Thomas":  58,
                                            "Mark":  54,
-                                           "Rory":  56
+                                           "Rory":  59
                                        },
                      "redCards":  {
                                       "Jack":  2,
@@ -54,10 +54,10 @@
                                       "Rory":  4
                                   },
                      "yellowCards":  {
-                                         "Jack":  49,
+                                         "Jack":  54,
                                          "Thomas":  44,
                                          "Mark":  52,
-                                         "Rory":  47
+                                         "Rory":  49
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -98,11 +98,12 @@
                          "Slavia Praha":  1,
                          "Napoli":  3,
                          "Galatasaray":  3,
-                         "Inter":  3
+                         "Inter":  3,
+                         "LASK":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  3,
-                         "LASK":  3,
+                         "LASK":  6,
                          "Club Brugge":  9,
                          "Aston Villa":  12,
                          "Borussia Dortmund":  5,
@@ -123,7 +124,7 @@
                          "Arsenal":  6,
                          "Paris Saint-Germain":  14,
                          "Slovan Bratislava":  1,
-                         "Sporting CP":  5,
+                         "Sporting CP":  7,
                          "Galatasaray":  6,
                          "PSV":  2,
                          "Shakhtar":  4,
@@ -140,7 +141,7 @@
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  8,
-                             "LASK":  7,
+                             "LASK":  9,
                              "Club Brugge":  6,
                              "Aston Villa":  3,
                              "Borussia Dortmund":  4,
@@ -161,7 +162,7 @@
                              "Arsenal":  2,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  13,
-                             "Sporting CP":  1,
+                             "Sporting CP":  4,
                              "Galatasaray":  9,
                              "PSV":  2,
                              "Shakhtar":  3,
@@ -235,6 +236,7 @@
                           "2026-10-21|LP|Club Brugge|Lens|3-0",
                           "2026-10-21|LP|Inter|Shakhtar|1-0",
                           "2026-10-21|LP|Real Betis|Feyenoord|1-0",
-                          "2026-10-21|LP|Real Madrid|Leipzig|4-1"
+                          "2026-10-21|LP|Real Madrid|Leipzig|4-1",
+                          "2026-10-21|LP|Sporting CP|LASK|2-3"
                       ]
 }
