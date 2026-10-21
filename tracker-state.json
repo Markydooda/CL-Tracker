@@ -37,13 +37,13 @@
                                            },
                      "goals":  {
                                    "Jack":  54,
-                                   "Thomas":  51,
+                                   "Thomas":  56,
                                    "Mark":  58,
                                    "Rory":  48
                                },
                      "goalsConceded":  {
                                            "Jack":  48,
-                                           "Thomas":  53,
+                                           "Thomas":  58,
                                            "Mark":  54,
                                            "Rory":  56
                                        },
@@ -55,7 +55,7 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  49,
-                                         "Thomas":  42,
+                                         "Thomas":  44,
                                          "Mark":  52,
                                          "Rory":  47
                                      },
@@ -72,7 +72,7 @@
                          "Borussia Dortmund":  6,
                          "Real Betis":  9,
                          "Manchester City":  6,
-                         "Real Madrid":  6,
+                         "Real Madrid":  9,
                          "Barcelona":  6,
                          "Stuttgart":  7,
                          "Liverpool":  9,
@@ -111,7 +111,7 @@
                          "Real Betis":  7,
                          "Porto":  2,
                          "Manchester City":  9,
-                         "Real Madrid":  6,
+                         "Real Madrid":  10,
                          "Inter":  5,
                          "Barcelona":  11,
                          "Feyenoord":  4,
@@ -128,7 +128,7 @@
                          "PSV":  2,
                          "Shakhtar":  4,
                          "Como":  10,
-                         "Leipzig":  2,
+                         "Leipzig":  3,
                          "Manchester United":  5,
                          "Sabah":  3,
                          "Slavia Praha":  4,
@@ -149,7 +149,7 @@
                              "Real Betis":  4,
                              "Porto":  6,
                              "Manchester City":  5,
-                             "Real Madrid":  4,
+                             "Real Madrid":  5,
                              "Inter":  6,
                              "Barcelona":  6,
                              "Feyenoord":  8,
@@ -166,7 +166,7 @@
                              "PSV":  2,
                              "Shakhtar":  3,
                              "Como":  5,
-                             "Leipzig":  4,
+                             "Leipzig":  8,
                              "Manchester United":  6,
                              "Sabah":  6,
                              "Slavia Praha":  7,
@@ -234,6 +234,7 @@
                           "2026-10-21|LP|Bayern Munich|Arsenal|2-2",
                           "2026-10-21|LP|Club Brugge|Lens|3-0",
                           "2026-10-21|LP|Inter|Shakhtar|1-0",
-                          "2026-10-21|LP|Real Betis|Feyenoord|1-0"
+                          "2026-10-21|LP|Real Betis|Feyenoord|1-0",
+                          "2026-10-21|LP|Real Madrid|Leipzig|4-1"
                       ]
 }
