@@ -53,3 +53,4 @@
 {"id":"2026-10-20|LP|Stuttgart|Atletico de Madrid|1-1","kind":"match","discordMessageId":"1562245452689317948","deliveredAt":"2026-10-20T23:25:41.4001494+00:00","requestFile":"auto-match-2049596.json"}
 {"id":"fixtures-2026-10-21","kind":"fixtures","discordMessageId":"1562479388769918986","deliveredAt":"2026-10-21T14:55:16.4367861+00:00","requestFile":"fixtures-2026-10-21.json"}
 {"id":"2026-10-21|LP|Como|Manchester United|4-1","kind":"match","discordMessageId":"1562565708494147717","deliveredAt":"2026-10-21T20:38:16.3161852+00:00","requestFile":"auto-match-2049606.json"}
+{"id":"2026-10-21|LP|Lille|Galatasaray|2-4","kind":"match","discordMessageId":"1562565719659384842","deliveredAt":"2026-10-21T20:38:19.0578977+00:00","requestFile":"auto-match-2049605.json"}
