@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  10,
+                        "Jack":  15,
                         "Thomas":  5,
                         "Mark":  0,
-                        "Rory":  -15
+                        "Rory":  -20
                     },
     "sideBets":  {
                      "pots":  {
@@ -36,7 +36,7 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  53,
+                                   "Jack":  54,
                                    "Thomas":  51,
                                    "Mark":  58,
                                    "Rory":  48
@@ -45,7 +45,7 @@
                                            "Jack":  48,
                                            "Thomas":  53,
                                            "Mark":  54,
-                                           "Rory":  55
+                                           "Rory":  56
                                        },
                      "redCards":  {
                                       "Jack":  2,
@@ -54,10 +54,10 @@
                                       "Rory":  4
                                   },
                      "yellowCards":  {
-                                         "Jack":  48,
+                                         "Jack":  49,
                                          "Thomas":  42,
                                          "Mark":  52,
-                                         "Rory":  45
+                                         "Rory":  47
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -70,7 +70,7 @@
                          "AEK Athens":  3,
                          "Aston Villa":  9,
                          "Borussia Dortmund":  6,
-                         "Real Betis":  6,
+                         "Real Betis":  9,
                          "Manchester City":  6,
                          "Real Madrid":  6,
                          "Barcelona":  6,
@@ -108,7 +108,7 @@
                          "Borussia Dortmund":  5,
                          "Villarreal":  8,
                          "Lille":  4,
-                         "Real Betis":  6,
+                         "Real Betis":  7,
                          "Porto":  2,
                          "Manchester City":  9,
                          "Real Madrid":  6,
@@ -152,7 +152,7 @@
                              "Real Madrid":  4,
                              "Inter":  6,
                              "Barcelona":  6,
-                             "Feyenoord":  7,
+                             "Feyenoord":  8,
                              "Stuttgart":  2,
                              "Viking":  9,
                              "Liverpool":  7,
@@ -233,6 +233,7 @@
                           "2026-10-21|LP|Aston Villa|Viking|3-1",
                           "2026-10-21|LP|Bayern Munich|Arsenal|2-2",
                           "2026-10-21|LP|Club Brugge|Lens|3-0",
-                          "2026-10-21|LP|Inter|Shakhtar|1-0"
+                          "2026-10-21|LP|Inter|Shakhtar|1-0",
+                          "2026-10-21|LP|Real Betis|Feyenoord|1-0"
                       ]
 }
