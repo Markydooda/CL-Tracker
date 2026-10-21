@@ -36,15 +36,15 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  51,
+                                   "Jack":  53,
                                    "Thomas":  51,
-                                   "Mark":  53,
+                                   "Mark":  55,
                                    "Rory":  47
                                },
                      "goalsConceded":  {
-                                           "Jack":  46,
+                                           "Jack":  48,
                                            "Thomas":  49,
-                                           "Mark":  52,
+                                           "Mark":  54,
                                            "Rory":  55
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  48,
                                          "Thomas":  38,
-                                         "Mark":  48,
+                                         "Mark":  50,
                                          "Rory":  41
                                      },
                      "last16":  {
@@ -76,7 +76,7 @@
                          "Barcelona":  6,
                          "Stuttgart":  7,
                          "Liverpool":  9,
-                         "Arsenal":  6,
+                         "Arsenal":  7,
                          "Paris Saint-Germain":  9,
                          "Sporting CP":  6,
                          "PSV":  4,
@@ -86,7 +86,7 @@
                          "Lens":  3,
                          "Fenerbahce":  2,
                          "Roma":  4,
-                         "Bayern Munich":  4,
+                         "Bayern Munich":  5,
                          "Sabah":  3,
                          "Atletico de Madrid":  4,
                          "Club Brugge":  3,
@@ -119,7 +119,7 @@
                          "Liverpool":  12,
                          "Atletico de Madrid":  4,
                          "Napoli":  5,
-                         "Arsenal":  4,
+                         "Arsenal":  6,
                          "Paris Saint-Germain":  14,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  5,
@@ -134,7 +134,7 @@
                          "Lens":  3,
                          "Fenerbahce":  3,
                          "Roma":  8,
-                         "Bayern Munich":  8,
+                         "Bayern Munich":  10,
                          "Bodo/Glimt":  4
                      },
     "teamGoalsAgainst":  {
@@ -157,7 +157,7 @@
                              "Liverpool":  7,
                              "Atletico de Madrid":  3,
                              "Napoli":  7,
-                             "Arsenal":  0,
+                             "Arsenal":  2,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  13,
                              "Sporting CP":  1,
@@ -172,7 +172,7 @@
                              "Lens":  4,
                              "Fenerbahce":  9,
                              "Roma":  5,
-                             "Bayern Munich":  3,
+                             "Bayern Munich":  5,
                              "Bodo/Glimt":  9
                          },
     "last16Teams":  [
@@ -229,6 +229,7 @@
                           "2026-10-20|LP|Stuttgart|Atletico de Madrid|1-1",
                           "2026-10-21|LP|Como|Manchester United|4-1",
                           "2026-10-21|LP|Lille|Galatasaray|2-4",
-                          "2026-10-21|LP|Aston Villa|Viking|3-1"
+                          "2026-10-21|LP|Aston Villa|Viking|3-1",
+                          "2026-10-21|LP|Bayern Munich|Arsenal|2-2"
                       ]
 }
