@@ -1,8 +1,8 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  10,
-                        "Thomas":  20,
-                        "Mark":  -10,
+                        "Thomas":  15,
+                        "Mark":  -5,
                         "Rory":  -20
                     },
     "sideBets":  {
@@ -37,14 +37,14 @@
                                            },
                      "goals":  {
                                    "Jack":  51,
-                                   "Thomas":  50,
-                                   "Mark":  50,
+                                   "Thomas":  51,
+                                   "Mark":  53,
                                    "Rory":  47
                                },
                      "goalsConceded":  {
                                            "Jack":  46,
-                                           "Thomas":  46,
-                                           "Mark":  51,
+                                           "Thomas":  49,
+                                           "Mark":  52,
                                            "Rory":  55
                                        },
                      "redCards":  {
@@ -68,7 +68,7 @@
                  },
     "leaguePoints":  {
                          "AEK Athens":  3,
-                         "Aston Villa":  6,
+                         "Aston Villa":  9,
                          "Borussia Dortmund":  6,
                          "Real Betis":  6,
                          "Manchester City":  6,
@@ -103,7 +103,7 @@
                          "AEK Athens":  3,
                          "LASK":  3,
                          "Club Brugge":  6,
-                         "Aston Villa":  9,
+                         "Aston Villa":  12,
                          "Borussia Dortmund":  5,
                          "Villarreal":  8,
                          "Lille":  4,
@@ -115,7 +115,7 @@
                          "Barcelona":  11,
                          "Feyenoord":  4,
                          "Stuttgart":  7,
-                         "Viking":  4,
+                         "Viking":  5,
                          "Liverpool":  12,
                          "Atletico de Madrid":  4,
                          "Napoli":  5,
@@ -141,7 +141,7 @@
                              "AEK Athens":  8,
                              "LASK":  7,
                              "Club Brugge":  6,
-                             "Aston Villa":  2,
+                             "Aston Villa":  3,
                              "Borussia Dortmund":  4,
                              "Villarreal":  8,
                              "Lille":  10,
@@ -153,7 +153,7 @@
                              "Barcelona":  6,
                              "Feyenoord":  7,
                              "Stuttgart":  2,
-                             "Viking":  6,
+                             "Viking":  9,
                              "Liverpool":  7,
                              "Atletico de Madrid":  3,
                              "Napoli":  7,
@@ -228,6 +228,7 @@
                           "2026-10-20|LP|Roma|Slovan Bratislava|4-0",
                           "2026-10-20|LP|Stuttgart|Atletico de Madrid|1-1",
                           "2026-10-21|LP|Como|Manchester United|4-1",
-                          "2026-10-21|LP|Lille|Galatasaray|2-4"
+                          "2026-10-21|LP|Lille|Galatasaray|2-4",
+                          "2026-10-21|LP|Aston Villa|Viking|3-1"
                       ]
 }
