@@ -1,0 +1,39 @@
+﻿{
+    "kind":  "match",
+    "kickoff":  "2026-10-21T16:45:00.0000000+00:00",
+    "matchDate":  "2026-10-21",
+    "stage":  "LP",
+    "homeTeam":  "Lille",
+    "homeScore":  2,
+    "awayTeam":  "Galatasaray",
+    "awayScore":  4,
+    "homeYellowCards":  3,
+    "awayYellowCards":  1,
+    "homeRedCards":  0,
+    "awayRedCards":  0,
+    "homeShootoutScore":  null,
+    "awayShootoutScore":  null,
+    "last16Teams":  [
+
+                    ],
+    "eliminatedTeams":  [
+
+                        ],
+    "sources":  [
+                    {
+                        "url":  "https://match.uefa.com/v5/matches?matchId=2049605\u0026order=ASC",
+                        "supports":  [
+                                         "final score",
+                                         "status",
+                                         "kickoff"
+                                     ]
+                    },
+                    {
+                        "url":  "https://matchstats.uefa.com/v1/team-statistics/2049605",
+                        "supports":  [
+                                         "yellow cards",
+                                         "red cards"
+                                     ]
+                    }
+                ]
+}
