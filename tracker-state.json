@@ -36,13 +36,13 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  57,
+                                   "Jack":  59,
                                    "Thomas":  56,
                                    "Mark":  60,
                                    "Rory":  51
                                },
                      "goalsConceded":  {
-                                           "Jack":  52,
+                                           "Jack":  54,
                                            "Thomas":  59,
                                            "Mark":  54,
                                            "Rory":  59
@@ -54,7 +54,7 @@
                                       "Rory":  4
                                   },
                      "yellowCards":  {
-                                         "Jack":  59,
+                                         "Jack":  63,
                                          "Thomas":  45,
                                          "Mark":  56,
                                          "Rory":  50
@@ -86,7 +86,7 @@
                          "Lens":  3,
                          "Fenerbahce":  2,
                          "Roma":  4,
-                         "Bayern Munich":  5,
+                         "Bayern Munich":  8,
                          "Sabah":  3,
                          "Atletico de Madrid":  4,
                          "Club Brugge":  6,
@@ -136,7 +136,7 @@
                          "Lens":  3,
                          "Fenerbahce":  3,
                          "Roma":  8,
-                         "Bayern Munich":  10,
+                         "Bayern Munich":  12,
                          "Bodo/Glimt":  4
                      },
     "teamGoalsAgainst":  {
@@ -157,7 +157,7 @@
                              "Stuttgart":  4,
                              "Viking":  9,
                              "Liverpool":  7,
-                             "Atletico de Madrid":  3,
+                             "Atletico de Madrid":  5,
                              "Napoli":  7,
                              "Arsenal":  2,
                              "Paris Saint-Germain":  5,
@@ -239,6 +239,7 @@
                           "2026-10-21|LP|Real Madrid|Leipzig|4-1",
                           "2026-10-21|LP|Sporting CP|LASK|2-3",
                           "2026-11-03|LP|Galatasaray|Stuttgart|2-0",
-                          "2026-11-03|LP|Shakhtar|Sporting CP|0-1"
+                          "2026-11-03|LP|Shakhtar|Sporting CP|0-1",
+                          "2026-11-03|LP|Atletico de Madrid|Bayern Munich|0-2"
                       ]
 }
