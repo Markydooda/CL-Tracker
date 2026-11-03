@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  15,
+                        "Jack":  20,
                         "Thomas":  0,
                         "Mark":  5,
-                        "Rory":  -20
+                        "Rory":  -25
                     },
     "sideBets":  {
                      "pots":  {
@@ -36,7 +36,7 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  59,
+                                   "Jack":  63,
                                    "Thomas":  56,
                                    "Mark":  63,
                                    "Rory":  54
@@ -45,7 +45,7 @@
                                            "Jack":  54,
                                            "Thomas":  59,
                                            "Mark":  57,
-                                           "Rory":  62
+                                           "Rory":  66
                                        },
                      "redCards":  {
                                       "Jack":  2,
@@ -57,7 +57,7 @@
                                          "Jack":  63,
                                          "Thomas":  46,
                                          "Mark":  61,
-                                         "Rory":  54
+                                         "Rory":  56
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -99,12 +99,12 @@
                          "Napoli":  3,
                          "Galatasaray":  6,
                          "Inter":  6,
-                         "LASK":  3,
+                         "LASK":  6,
                          "Lille":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  3,
-                         "LASK":  6,
+                         "LASK":  10,
                          "Club Brugge":  9,
                          "Aston Villa":  12,
                          "Borussia Dortmund":  5,
@@ -162,7 +162,7 @@
                              "Napoli":  7,
                              "Arsenal":  2,
                              "Paris Saint-Germain":  5,
-                             "Slovan Bratislava":  13,
+                             "Slovan Bratislava":  17,
                              "Sporting CP":  4,
                              "Galatasaray":  9,
                              "PSV":  2,
@@ -244,6 +244,7 @@
                           "2026-11-03|LP|Atletico de Madrid|Bayern Munich|0-2",
                           "2026-11-03|LP|Barcelona|Aston Villa|3-0",
                           "2026-11-03|LP|Bodo/Glimt|Lille|0-0",
-                          "2026-11-03|LP|Feyenoord|Inter|0-3"
+                          "2026-11-03|LP|Feyenoord|Inter|0-3",
+                          "2026-11-03|LP|LASK|Slovan Bratislava|4-0"
                       ]
 }
