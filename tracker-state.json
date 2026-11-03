@@ -39,13 +39,13 @@
                                    "Jack":  59,
                                    "Thomas":  56,
                                    "Mark":  63,
-                                   "Rory":  51
+                                   "Rory":  54
                                },
                      "goalsConceded":  {
                                            "Jack":  54,
                                            "Thomas":  59,
                                            "Mark":  57,
-                                           "Rory":  59
+                                           "Rory":  62
                                        },
                      "redCards":  {
                                       "Jack":  2,
@@ -57,7 +57,7 @@
                                          "Jack":  63,
                                          "Thomas":  46,
                                          "Mark":  61,
-                                         "Rory":  50
+                                         "Rory":  54
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -98,7 +98,7 @@
                          "Slavia Praha":  1,
                          "Napoli":  3,
                          "Galatasaray":  6,
-                         "Inter":  3,
+                         "Inter":  6,
                          "LASK":  3,
                          "Lille":  1
                      },
@@ -114,7 +114,7 @@
                          "Porto":  2,
                          "Manchester City":  9,
                          "Real Madrid":  10,
-                         "Inter":  5,
+                         "Inter":  8,
                          "Barcelona":  14,
                          "Feyenoord":  4,
                          "Stuttgart":  7,
@@ -154,7 +154,7 @@
                              "Real Madrid":  5,
                              "Inter":  6,
                              "Barcelona":  6,
-                             "Feyenoord":  8,
+                             "Feyenoord":  11,
                              "Stuttgart":  4,
                              "Viking":  9,
                              "Liverpool":  7,
@@ -243,6 +243,7 @@
                           "2026-11-03|LP|Shakhtar|Sporting CP|0-1",
                           "2026-11-03|LP|Atletico de Madrid|Bayern Munich|0-2",
                           "2026-11-03|LP|Barcelona|Aston Villa|3-0",
-                          "2026-11-03|LP|Bodo/Glimt|Lille|0-0"
+                          "2026-11-03|LP|Bodo/Glimt|Lille|0-0",
+                          "2026-11-03|LP|Feyenoord|Inter|0-3"
                       ]
 }
