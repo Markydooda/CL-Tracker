@@ -55,8 +55,8 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  63,
-                                         "Thomas":  45,
-                                         "Mark":  60,
+                                         "Thomas":  46,
+                                         "Mark":  61,
                                          "Rory":  50
                                      },
                      "last16":  {
@@ -94,12 +94,13 @@
                          "Viking":  1,
                          "Villarreal":  3,
                          "Feyenoord":  3,
-                         "Bodo/Glimt":  3,
+                         "Bodo/Glimt":  4,
                          "Slavia Praha":  1,
                          "Napoli":  3,
                          "Galatasaray":  6,
                          "Inter":  3,
-                         "LASK":  3
+                         "LASK":  3,
+                         "Lille":  1
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  3,
@@ -241,6 +242,7 @@
                           "2026-11-03|LP|Galatasaray|Stuttgart|2-0",
                           "2026-11-03|LP|Shakhtar|Sporting CP|0-1",
                           "2026-11-03|LP|Atletico de Madrid|Bayern Munich|0-2",
-                          "2026-11-03|LP|Barcelona|Aston Villa|3-0"
+                          "2026-11-03|LP|Barcelona|Aston Villa|3-0",
+                          "2026-11-03|LP|Bodo/Glimt|Lille|0-0"
                       ]
 }
