@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  20,
+                        "Jack":  15,
                         "Thomas":  0,
                         "Mark":  5,
-                        "Rory":  -25
+                        "Rory":  -20
                     },
     "sideBets":  {
                      "pots":  {
@@ -36,28 +36,28 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  63,
+                                   "Jack":  65,
                                    "Thomas":  56,
                                    "Mark":  63,
-                                   "Rory":  54
+                                   "Rory":  57
                                },
                      "goalsConceded":  {
-                                           "Jack":  54,
+                                           "Jack":  57,
                                            "Thomas":  59,
                                            "Mark":  57,
-                                           "Rory":  66
+                                           "Rory":  68
                                        },
                      "redCards":  {
                                       "Jack":  2,
                                       "Thomas":  1,
                                       "Mark":  2,
-                                      "Rory":  4
+                                      "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  63,
+                                         "Jack":  66,
                                          "Thomas":  46,
                                          "Mark":  61,
-                                         "Rory":  56
+                                         "Rory":  61
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -82,7 +82,7 @@
                          "PSV":  4,
                          "Shakhtar":  4,
                          "Como":  6,
-                         "Manchester United":  3,
+                         "Manchester United":  6,
                          "Lens":  3,
                          "Fenerbahce":  2,
                          "Roma":  4,
@@ -131,12 +131,12 @@
                          "Shakhtar":  4,
                          "Como":  10,
                          "Leipzig":  3,
-                         "Manchester United":  5,
+                         "Manchester United":  8,
                          "Sabah":  3,
                          "Slavia Praha":  4,
                          "Lens":  3,
                          "Fenerbahce":  3,
-                         "Roma":  8,
+                         "Roma":  10,
                          "Bayern Munich":  12,
                          "Bodo/Glimt":  4
                      },
@@ -169,12 +169,12 @@
                              "Shakhtar":  4,
                              "Como":  5,
                              "Leipzig":  8,
-                             "Manchester United":  6,
+                             "Manchester United":  8,
                              "Sabah":  6,
                              "Slavia Praha":  7,
                              "Lens":  7,
                              "Fenerbahce":  9,
-                             "Roma":  5,
+                             "Roma":  8,
                              "Bayern Munich":  5,
                              "Bodo/Glimt":  9
                          },
@@ -245,6 +245,7 @@
                           "2026-11-03|LP|Barcelona|Aston Villa|3-0",
                           "2026-11-03|LP|Bodo/Glimt|Lille|0-0",
                           "2026-11-03|LP|Feyenoord|Inter|0-3",
-                          "2026-11-03|LP|LASK|Slovan Bratislava|4-0"
+                          "2026-11-03|LP|LASK|Slovan Bratislava|4-0",
+                          "2026-11-03|LP|Manchester United|Roma|3-2"
                       ]
 }
