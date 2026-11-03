@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  15,
-                        "Thomas":  5,
+                        "Thomas":  0,
                         "Mark":  5,
-                        "Rory":  -25
+                        "Rory":  -20
                     },
     "sideBets":  {
                      "pots":  {
@@ -39,11 +39,11 @@
                                    "Jack":  57,
                                    "Thomas":  56,
                                    "Mark":  60,
-                                   "Rory":  50
+                                   "Rory":  51
                                },
                      "goalsConceded":  {
                                            "Jack":  52,
-                                           "Thomas":  58,
+                                           "Thomas":  59,
                                            "Mark":  54,
                                            "Rory":  59
                                        },
@@ -55,9 +55,9 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  59,
-                                         "Thomas":  44,
+                                         "Thomas":  45,
                                          "Mark":  56,
-                                         "Rory":  49
+                                         "Rory":  50
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -78,7 +78,7 @@
                          "Liverpool":  9,
                          "Arsenal":  7,
                          "Paris Saint-Germain":  9,
-                         "Sporting CP":  6,
+                         "Sporting CP":  9,
                          "PSV":  4,
                          "Shakhtar":  4,
                          "Como":  6,
@@ -124,7 +124,7 @@
                          "Arsenal":  6,
                          "Paris Saint-Germain":  14,
                          "Slovan Bratislava":  1,
-                         "Sporting CP":  7,
+                         "Sporting CP":  8,
                          "Galatasaray":  8,
                          "PSV":  2,
                          "Shakhtar":  4,
@@ -165,7 +165,7 @@
                              "Sporting CP":  4,
                              "Galatasaray":  9,
                              "PSV":  2,
-                             "Shakhtar":  3,
+                             "Shakhtar":  4,
                              "Como":  5,
                              "Leipzig":  8,
                              "Manchester United":  6,
@@ -238,6 +238,7 @@
                           "2026-10-21|LP|Real Betis|Feyenoord|1-0",
                           "2026-10-21|LP|Real Madrid|Leipzig|4-1",
                           "2026-10-21|LP|Sporting CP|LASK|2-3",
-                          "2026-11-03|LP|Galatasaray|Stuttgart|2-0"
+                          "2026-11-03|LP|Galatasaray|Stuttgart|2-0",
+                          "2026-11-03|LP|Shakhtar|Sporting CP|0-1"
                       ]
 }
