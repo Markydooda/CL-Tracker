@@ -63,3 +63,4 @@
 {"id":"2026-10-21|LP|Sporting CP|LASK|2-3","kind":"match","discordMessageId":"1562611445328388158","deliveredAt":"2026-10-21T23:40:00.8209098+00:00","requestFile":"auto-match-2049601.json"}
 {"id":"fixtures-2026-11-02","kind":"fixtures","discordMessageId":"1566914622248722464","deliveredAt":"2026-11-02T20:39:18.4851407+00:00","requestFile":"fixtures-2026-11-02.json"}
 {"id":"fixtures-2026-11-03","kind":"fixtures","discordMessageId":"1567240765955121244","deliveredAt":"2026-11-03T18:15:17.4217768+00:00","requestFile":"fixtures-2026-11-03.json"}
+{"id":"2026-11-03|LP|Galatasaray|Stuttgart|2-0","kind":"match","discordMessageId":"1567318430485319781","deliveredAt":"2026-11-03T23:23:53.5818781+00:00","requestFile":"auto-match-2049614.json"}
