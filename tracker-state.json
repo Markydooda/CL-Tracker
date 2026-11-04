@@ -2,8 +2,8 @@
     "balancesGBP":  {
                         "Jack":  15,
                         "Thomas":  0,
-                        "Mark":  10,
-                        "Rory":  -25
+                        "Mark":  15,
+                        "Rory":  -30
                     },
     "sideBets":  {
                      "pots":  {
@@ -38,14 +38,14 @@
                      "goals":  {
                                    "Jack":  74,
                                    "Thomas":  75,
-                                   "Mark":  70,
-                                   "Rory":  64
+                                   "Mark":  72,
+                                   "Rory":  65
                                },
                      "goalsConceded":  {
                                            "Jack":  66,
                                            "Thomas":  78,
-                                           "Mark":  63,
-                                           "Rory":  76
+                                           "Mark":  64,
+                                           "Rory":  78
                                        },
                      "redCards":  {
                                       "Jack":  3,
@@ -56,8 +56,8 @@
                      "yellowCards":  {
                                          "Jack":  75,
                                          "Thomas":  58,
-                                         "Mark":  69,
-                                         "Rory":  65
+                                         "Mark":  71,
+                                         "Rory":  66
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -76,7 +76,7 @@
                          "Barcelona":  9,
                          "Stuttgart":  7,
                          "Liverpool":  9,
-                         "Arsenal":  7,
+                         "Arsenal":  10,
                          "Paris Saint-Germain":  12,
                          "Sporting CP":  9,
                          "PSV":  4,
@@ -123,7 +123,7 @@
                          "Liverpool":  14,
                          "Atletico de Madrid":  4,
                          "Napoli":  6,
-                         "Arsenal":  6,
+                         "Arsenal":  8,
                          "Paris Saint-Germain":  20,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  8,
@@ -134,7 +134,7 @@
                          "Leipzig":  5,
                          "Manchester United":  8,
                          "Sabah":  3,
-                         "Slavia Praha":  4,
+                         "Slavia Praha":  5,
                          "Lens":  4,
                          "Fenerbahce":  6,
                          "Roma":  10,
@@ -161,7 +161,7 @@
                              "Liverpool":  10,
                              "Atletico de Madrid":  5,
                              "Napoli":  11,
-                             "Arsenal":  2,
+                             "Arsenal":  3,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  17,
                              "Sporting CP":  4,
@@ -172,7 +172,7 @@
                              "Leipzig":  11,
                              "Manchester United":  8,
                              "Sabah":  6,
-                             "Slavia Praha":  7,
+                             "Slavia Praha":  9,
                              "Lens":  16,
                              "Fenerbahce":  11,
                              "Roma":  8,
@@ -255,6 +255,7 @@
                           "2026-11-04|LP|Leipzig|Manchester City|2-3",
                           "2026-11-04|LP|Lens|Como|1-9",
                           "2026-11-04|LP|Porto|Napoli|4-1",
-                          "2026-11-04|LP|PSV|Club Brugge|1-2"
+                          "2026-11-04|LP|PSV|Club Brugge|1-2",
+                          "2026-11-04|LP|Slavia Praha|Arsenal|1-2"
                       ]
 }
