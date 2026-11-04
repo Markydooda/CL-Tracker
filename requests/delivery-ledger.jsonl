@@ -75,3 +75,4 @@
 {"id":"fixtures-2026-11-04","kind":"fixtures","discordMessageId":"1567606818468003961","deliveredAt":"2026-11-04T18:29:51.0417514+00:00","requestFile":"fixtures-2026-11-04.json"}
 {"id":"2026-11-04|LP|AEK Athens|Real Madrid|2-3","kind":"match","discordMessageId":"1567684897756160112","deliveredAt":"2026-11-04T23:40:06.1118579+00:00","requestFile":"auto-match-2049622.json"}
 {"id":"2026-11-04|LP|Fenerbahce|Liverpool|3-2","kind":"match","discordMessageId":"1567684906497343489","deliveredAt":"2026-11-04T23:40:08.2817649+00:00","requestFile":"auto-match-2049620.json"}
+{"id":"2026-11-04|LP|Borussia Dortmund|Real Betis|2-1","kind":"match","discordMessageId":"1567684915246403737","deliveredAt":"2026-11-04T23:40:10.2569662+00:00","requestFile":"auto-match-2049616.json"}
