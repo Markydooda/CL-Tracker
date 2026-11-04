@@ -37,13 +37,13 @@
                                            },
                      "goals":  {
                                    "Jack":  74,
-                                   "Thomas":  65,
+                                   "Thomas":  75,
                                    "Mark":  63,
                                    "Rory":  63
                                },
                      "goalsConceded":  {
                                            "Jack":  66,
-                                           "Thomas":  68,
+                                           "Thomas":  78,
                                            "Mark":  57,
                                            "Rory":  74
                                        },
@@ -55,7 +55,7 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  75,
-                                         "Thomas":  56,
+                                         "Thomas":  58,
                                          "Mark":  61,
                                          "Rory":  65
                                      },
@@ -81,7 +81,7 @@
                          "Sporting CP":  9,
                          "PSV":  4,
                          "Shakhtar":  4,
-                         "Como":  6,
+                         "Como":  9,
                          "Manchester United":  6,
                          "Lens":  3,
                          "Fenerbahce":  5,
@@ -129,12 +129,12 @@
                          "Galatasaray":  8,
                          "PSV":  2,
                          "Shakhtar":  4,
-                         "Como":  10,
+                         "Como":  19,
                          "Leipzig":  5,
                          "Manchester United":  8,
                          "Sabah":  3,
                          "Slavia Praha":  4,
-                         "Lens":  3,
+                         "Lens":  4,
                          "Fenerbahce":  6,
                          "Roma":  10,
                          "Bayern Munich":  12,
@@ -167,12 +167,12 @@
                              "Galatasaray":  9,
                              "PSV":  2,
                              "Shakhtar":  4,
-                             "Como":  5,
+                             "Como":  6,
                              "Leipzig":  11,
                              "Manchester United":  8,
                              "Sabah":  6,
                              "Slavia Praha":  7,
-                             "Lens":  7,
+                             "Lens":  16,
                              "Fenerbahce":  11,
                              "Roma":  8,
                              "Bayern Munich":  5,
@@ -251,6 +251,7 @@
                           "2026-11-04|LP|AEK Athens|Real Madrid|2-3",
                           "2026-11-04|LP|Fenerbahce|Liverpool|3-2",
                           "2026-11-04|LP|Borussia Dortmund|Real Betis|2-1",
-                          "2026-11-04|LP|Leipzig|Manchester City|2-3"
+                          "2026-11-04|LP|Leipzig|Manchester City|2-3",
+                          "2026-11-04|LP|Lens|Como|1-9"
                       ]
 }
