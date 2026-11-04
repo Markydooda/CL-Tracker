@@ -38,25 +38,25 @@
                      "goals":  {
                                    "Jack":  74,
                                    "Thomas":  75,
-                                   "Mark":  63,
+                                   "Mark":  68,
                                    "Rory":  63
                                },
                      "goalsConceded":  {
                                            "Jack":  66,
                                            "Thomas":  78,
-                                           "Mark":  57,
+                                           "Mark":  62,
                                            "Rory":  74
                                        },
                      "redCards":  {
                                       "Jack":  3,
                                       "Thomas":  1,
-                                      "Mark":  2,
+                                      "Mark":  3,
                                       "Rory":  5
                                   },
                      "yellowCards":  {
                                          "Jack":  75,
                                          "Thomas":  58,
-                                         "Mark":  61,
+                                         "Mark":  66,
                                          "Rory":  65
                                      },
                      "last16":  {
@@ -100,7 +100,8 @@
                          "Galatasaray":  6,
                          "Inter":  6,
                          "LASK":  6,
-                         "Lille":  1
+                         "Lille":  1,
+                         "Porto":  3
                      },
     "teamGoalsFor":  {
                          "AEK Athens":  5,
@@ -111,7 +112,7 @@
                          "Villarreal":  8,
                          "Lille":  4,
                          "Real Betis":  8,
-                         "Porto":  2,
+                         "Porto":  6,
                          "Manchester City":  12,
                          "Real Madrid":  13,
                          "Inter":  8,
@@ -121,7 +122,7 @@
                          "Viking":  5,
                          "Liverpool":  14,
                          "Atletico de Madrid":  4,
-                         "Napoli":  5,
+                         "Napoli":  6,
                          "Arsenal":  6,
                          "Paris Saint-Germain":  20,
                          "Slovan Bratislava":  1,
@@ -149,7 +150,7 @@
                              "Villarreal":  14,
                              "Lille":  10,
                              "Real Betis":  6,
-                             "Porto":  6,
+                             "Porto":  7,
                              "Manchester City":  7,
                              "Real Madrid":  7,
                              "Inter":  6,
@@ -159,7 +160,7 @@
                              "Viking":  9,
                              "Liverpool":  10,
                              "Atletico de Madrid":  5,
-                             "Napoli":  7,
+                             "Napoli":  11,
                              "Arsenal":  2,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  17,
@@ -252,6 +253,7 @@
                           "2026-11-04|LP|Fenerbahce|Liverpool|3-2",
                           "2026-11-04|LP|Borussia Dortmund|Real Betis|2-1",
                           "2026-11-04|LP|Leipzig|Manchester City|2-3",
-                          "2026-11-04|LP|Lens|Como|1-9"
+                          "2026-11-04|LP|Lens|Como|1-9",
+                          "2026-11-04|LP|Porto|Napoli|4-1"
                       ]
 }
