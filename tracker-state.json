@@ -37,14 +37,14 @@
                                            },
                      "goals":  {
                                    "Jack":  74,
-                                   "Thomas":  79,
-                                   "Mark":  75,
+                                   "Thomas":  80,
+                                   "Mark":  76,
                                    "Rory":  65
                                },
                      "goalsConceded":  {
                                            "Jack":  67,
-                                           "Thomas":  79,
-                                           "Mark":  69,
+                                           "Thomas":  80,
+                                           "Mark":  70,
                                            "Rory":  78
                                        },
                      "redCards":  {
@@ -69,14 +69,14 @@
     "leaguePoints":  {
                          "AEK Athens":  3,
                          "Aston Villa":  9,
-                         "Borussia Dortmund":  9,
+                         "Borussia Dortmund":  10,
                          "Real Betis":  9,
                          "Manchester City":  9,
                          "Real Madrid":  12,
                          "Barcelona":  9,
                          "Stuttgart":  7,
                          "Liverpool":  9,
-                         "Arsenal":  10,
+                         "Arsenal":  11,
                          "Paris Saint-Germain":  12,
                          "Sporting CP":  9,
                          "PSV":  4,
@@ -108,7 +108,7 @@
                          "LASK":  10,
                          "Club Brugge":  11,
                          "Aston Villa":  12,
-                         "Borussia Dortmund":  7,
+                         "Borussia Dortmund":  8,
                          "Villarreal":  8,
                          "Lille":  4,
                          "Real Betis":  8,
@@ -123,7 +123,7 @@
                          "Liverpool":  14,
                          "Atletico de Madrid":  4,
                          "Napoli":  6,
-                         "Arsenal":  8,
+                         "Arsenal":  9,
                          "Paris Saint-Germain":  20,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  8,
@@ -146,7 +146,7 @@
                              "LASK":  10,
                              "Club Brugge":  7,
                              "Aston Villa":  7,
-                             "Borussia Dortmund":  5,
+                             "Borussia Dortmund":  6,
                              "Villarreal":  14,
                              "Lille":  10,
                              "Real Betis":  6,
@@ -161,7 +161,7 @@
                              "Liverpool":  10,
                              "Atletico de Madrid":  5,
                              "Napoli":  11,
-                             "Arsenal":  3,
+                             "Arsenal":  4,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  17,
                              "Sporting CP":  4,
@@ -259,6 +259,7 @@
                           "2026-11-04|LP|Slavia Praha|Arsenal|1-2",
                           "2026-11-04|LP|Viking|Sabah|4-1",
                           "2026-11-24|LP|Bodo/Glimt|LASK|1-0",
-                          "2026-11-24|LP|Galatasaray|Aston Villa|1-0"
+                          "2026-11-24|LP|Galatasaray|Aston Villa|1-0",
+                          "2026-11-24|LP|Arsenal|Borussia Dortmund|1-1"
                       ]
 }

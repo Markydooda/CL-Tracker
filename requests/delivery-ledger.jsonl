@@ -86,3 +86,4 @@
 {"id":"fixtures-2026-11-24","kind":"fixtures","discordMessageId":"1574898468562927626","deliveredAt":"2026-11-24T21:24:15.4731900+00:00","requestFile":"fixtures-2026-11-24.json"}
 {"id":"2026-11-24|LP|Bodo/Glimt|LASK|1-0","kind":"match","discordMessageId":"1574975450697039964","deliveredAt":"2026-11-25T02:30:10.1316126+00:00","requestFile":"auto-match-2049629.json"}
 {"id":"2026-11-24|LP|Galatasaray|Aston Villa|1-0","kind":"match","discordMessageId":"1574975463061856394","deliveredAt":"2026-11-25T02:30:12.3916655+00:00","requestFile":"auto-match-2049631.json"}
+{"id":"2026-11-24|LP|Arsenal|Borussia Dortmund|1-1","kind":"match","discordMessageId":"1574975472142385282","deliveredAt":"2026-11-25T02:30:14.4966524+00:00","requestFile":"auto-match-2049627.json"}
