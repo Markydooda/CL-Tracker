@@ -1,7 +1,7 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  10,
-                        "Thomas":  5,
+                        "Jack":  5,
+                        "Thomas":  10,
                         "Mark":  15,
                         "Rory":  -30
                     },
@@ -37,12 +37,12 @@
                                            },
                      "goals":  {
                                    "Jack":  74,
-                                   "Thomas":  80,
+                                   "Thomas":  81,
                                    "Mark":  76,
                                    "Rory":  65
                                },
                      "goalsConceded":  {
-                                           "Jack":  67,
+                                           "Jack":  68,
                                            "Thomas":  80,
                                            "Mark":  70,
                                            "Rory":  78
@@ -54,8 +54,8 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  76,
-                                         "Thomas":  60,
+                                         "Jack":  80,
+                                         "Thomas":  62,
                                          "Mark":  81,
                                          "Rory":  66
                                      },
@@ -81,7 +81,7 @@
                          "Sporting CP":  9,
                          "PSV":  4,
                          "Shakhtar":  4,
-                         "Como":  9,
+                         "Como":  12,
                          "Manchester United":  6,
                          "Lens":  3,
                          "Fenerbahce":  5,
@@ -130,7 +130,7 @@
                          "Galatasaray":  9,
                          "PSV":  3,
                          "Shakhtar":  4,
-                         "Como":  19,
+                         "Como":  20,
                          "Leipzig":  5,
                          "Manchester United":  8,
                          "Sabah":  4,
@@ -142,7 +142,7 @@
                          "Bodo/Glimt":  5
                      },
     "teamGoalsAgainst":  {
-                             "AEK Athens":  11,
+                             "AEK Athens":  12,
                              "LASK":  10,
                              "Club Brugge":  7,
                              "Aston Villa":  7,
@@ -260,6 +260,7 @@
                           "2026-11-04|LP|Viking|Sabah|4-1",
                           "2026-11-24|LP|Bodo/Glimt|LASK|1-0",
                           "2026-11-24|LP|Galatasaray|Aston Villa|1-0",
-                          "2026-11-24|LP|Arsenal|Borussia Dortmund|1-1"
+                          "2026-11-24|LP|Arsenal|Borussia Dortmund|1-1",
+                          "2026-11-24|LP|Como|AEK Athens|1-0"
                       ]
 }
