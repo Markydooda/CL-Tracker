@@ -38,13 +38,13 @@
                      "goals":  {
                                    "Jack":  74,
                                    "Thomas":  79,
-                                   "Mark":  74,
+                                   "Mark":  75,
                                    "Rory":  65
                                },
                      "goalsConceded":  {
                                            "Jack":  67,
                                            "Thomas":  79,
-                                           "Mark":  68,
+                                           "Mark":  69,
                                            "Rory":  78
                                        },
                      "redCards":  {
@@ -56,7 +56,7 @@
                      "yellowCards":  {
                                          "Jack":  76,
                                          "Thomas":  60,
-                                         "Mark":  74,
+                                         "Mark":  81,
                                          "Rory":  66
                                      },
                      "last16":  {
@@ -97,7 +97,7 @@
                          "Bodo/Glimt":  7,
                          "Slavia Praha":  1,
                          "Napoli":  3,
-                         "Galatasaray":  6,
+                         "Galatasaray":  9,
                          "Inter":  6,
                          "LASK":  6,
                          "Lille":  1,
@@ -127,7 +127,7 @@
                          "Paris Saint-Germain":  20,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  8,
-                         "Galatasaray":  8,
+                         "Galatasaray":  9,
                          "PSV":  3,
                          "Shakhtar":  4,
                          "Como":  19,
@@ -145,7 +145,7 @@
                              "AEK Athens":  11,
                              "LASK":  10,
                              "Club Brugge":  7,
-                             "Aston Villa":  6,
+                             "Aston Villa":  7,
                              "Borussia Dortmund":  5,
                              "Villarreal":  14,
                              "Lille":  10,
@@ -258,6 +258,7 @@
                           "2026-11-04|LP|PSV|Club Brugge|1-2",
                           "2026-11-04|LP|Slavia Praha|Arsenal|1-2",
                           "2026-11-04|LP|Viking|Sabah|4-1",
-                          "2026-11-24|LP|Bodo/Glimt|LASK|1-0"
+                          "2026-11-24|LP|Bodo/Glimt|LASK|1-0",
+                          "2026-11-24|LP|Galatasaray|Aston Villa|1-0"
                       ]
 }
