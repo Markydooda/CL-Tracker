@@ -1,8 +1,8 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  15,
+                        "Jack":  10,
                         "Thomas":  5,
-                        "Mark":  10,
+                        "Mark":  15,
                         "Rory":  -30
                     },
     "sideBets":  {
@@ -38,11 +38,11 @@
                      "goals":  {
                                    "Jack":  74,
                                    "Thomas":  79,
-                                   "Mark":  73,
+                                   "Mark":  74,
                                    "Rory":  65
                                },
                      "goalsConceded":  {
-                                           "Jack":  66,
+                                           "Jack":  67,
                                            "Thomas":  79,
                                            "Mark":  68,
                                            "Rory":  78
@@ -54,9 +54,9 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  75,
+                                         "Jack":  76,
                                          "Thomas":  60,
-                                         "Mark":  73,
+                                         "Mark":  74,
                                          "Rory":  66
                                      },
                      "last16":  {
@@ -94,7 +94,7 @@
                          "Viking":  4,
                          "Villarreal":  3,
                          "Feyenoord":  3,
-                         "Bodo/Glimt":  4,
+                         "Bodo/Glimt":  7,
                          "Slavia Praha":  1,
                          "Napoli":  3,
                          "Galatasaray":  6,
@@ -139,11 +139,11 @@
                          "Fenerbahce":  6,
                          "Roma":  10,
                          "Bayern Munich":  12,
-                         "Bodo/Glimt":  4
+                         "Bodo/Glimt":  5
                      },
     "teamGoalsAgainst":  {
                              "AEK Athens":  11,
-                             "LASK":  9,
+                             "LASK":  10,
                              "Club Brugge":  7,
                              "Aston Villa":  6,
                              "Borussia Dortmund":  5,
@@ -257,6 +257,7 @@
                           "2026-11-04|LP|Porto|Napoli|4-1",
                           "2026-11-04|LP|PSV|Club Brugge|1-2",
                           "2026-11-04|LP|Slavia Praha|Arsenal|1-2",
-                          "2026-11-04|LP|Viking|Sabah|4-1"
+                          "2026-11-04|LP|Viking|Sabah|4-1",
+                          "2026-11-24|LP|Bodo/Glimt|LASK|1-0"
                       ]
 }
