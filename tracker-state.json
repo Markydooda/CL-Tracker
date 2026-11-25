@@ -36,15 +36,15 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  74,
+                                   "Jack":  76,
                                    "Thomas":  85,
-                                   "Mark":  77,
+                                   "Mark":  79,
                                    "Rory":  65
                                },
                      "goalsConceded":  {
-                                           "Jack":  68,
+                                           "Jack":  70,
                                            "Thomas":  84,
-                                           "Mark":  70,
+                                           "Mark":  72,
                                            "Rory":  79
                                        },
                      "redCards":  {
@@ -54,7 +54,7 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  80,
+                                         "Jack":  82,
                                          "Thomas":  68,
                                          "Mark":  86,
                                          "Rory":  68
@@ -71,7 +71,7 @@
                          "Aston Villa":  9,
                          "Borussia Dortmund":  10,
                          "Real Betis":  9,
-                         "Manchester City":  9,
+                         "Manchester City":  10,
                          "Real Madrid":  12,
                          "Barcelona":  9,
                          "Stuttgart":  7,
@@ -96,7 +96,7 @@
                          "Feyenoord":  3,
                          "Bodo/Glimt":  7,
                          "Slavia Praha":  1,
-                         "Napoli":  3,
+                         "Napoli":  4,
                          "Galatasaray":  9,
                          "Inter":  6,
                          "LASK":  6,
@@ -113,7 +113,7 @@
                          "Lille":  4,
                          "Real Betis":  8,
                          "Porto":  7,
-                         "Manchester City":  12,
+                         "Manchester City":  14,
                          "Real Madrid":  13,
                          "Inter":  8,
                          "Barcelona":  14,
@@ -122,7 +122,7 @@
                          "Viking":  9,
                          "Liverpool":  14,
                          "Atletico de Madrid":  4,
-                         "Napoli":  6,
+                         "Napoli":  8,
                          "Arsenal":  9,
                          "Paris Saint-Germain":  20,
                          "Slovan Bratislava":  1,
@@ -151,7 +151,7 @@
                              "Lille":  10,
                              "Real Betis":  6,
                              "Porto":  7,
-                             "Manchester City":  7,
+                             "Manchester City":  9,
                              "Real Madrid":  7,
                              "Inter":  6,
                              "Barcelona":  6,
@@ -160,7 +160,7 @@
                              "Viking":  10,
                              "Liverpool":  10,
                              "Atletico de Madrid":  5,
-                             "Napoli":  11,
+                             "Napoli":  13,
                              "Arsenal":  4,
                              "Paris Saint-Germain":  5,
                              "Slovan Bratislava":  17,
@@ -263,6 +263,7 @@
                           "2026-11-24|LP|Arsenal|Borussia Dortmund|1-1",
                           "2026-11-24|LP|Como|AEK Athens|1-0",
                           "2026-11-24|LP|Feyenoord|Porto|0-1",
-                          "2026-11-24|LP|Leipzig|Lens|3-1"
+                          "2026-11-24|LP|Leipzig|Lens|3-1",
+                          "2026-11-24|LP|Manchester City|Napoli|2-2"
                       ]
 }
