@@ -100,3 +100,4 @@
 {"id":"2026-11-25|LP|Inter|Stuttgart|2-0","kind":"match","discordMessageId":"1575327089404547118","deliveredAt":"2026-11-26T01:47:26.7092660+00:00","requestFile":"auto-match-2049635.json"}
 {"id":"2026-11-25|LP|Lille|Bayern Munich|2-1","kind":"match","discordMessageId":"1575327099332599850","deliveredAt":"2026-11-26T01:47:28.9983077+00:00","requestFile":"auto-match-2049639.json"}
 {"id":"2026-11-25|LP|Paris Saint-Germain|Roma|2-2","kind":"match","discordMessageId":"1575327113274327141","deliveredAt":"2026-11-26T01:47:32.2432780+00:00","requestFile":"auto-match-2049634.json"}
+{"id":"2026-11-25|LP|Shakhtar|Fenerbahce|0-1","kind":"match","discordMessageId":"1575327122426298479","deliveredAt":"2026-11-26T01:47:34.4691724+00:00","requestFile":"auto-match-2049640.json"}
