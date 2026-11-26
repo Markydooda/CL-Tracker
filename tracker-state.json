@@ -1,8 +1,8 @@
 ﻿{
     "balancesGBP":  {
                         "Jack":  15,
-                        "Thomas":  10,
-                        "Mark":  20,
+                        "Thomas":  15,
+                        "Mark":  15,
                         "Rory":  -45
                     },
     "sideBets":  {
@@ -37,14 +37,14 @@
                                            },
                      "goals":  {
                                    "Jack":  80,
-                                   "Thomas":  90,
+                                   "Thomas":  93,
                                    "Mark":  84,
                                    "Rory":  67
                                },
                      "goalsConceded":  {
                                            "Jack":  70,
                                            "Thomas":  87,
-                                           "Mark":  77,
+                                           "Mark":  80,
                                            "Rory":  87
                                        },
                      "redCards":  {
@@ -55,7 +55,7 @@
                                   },
                      "yellowCards":  {
                                          "Jack":  83,
-                                         "Thomas":  72,
+                                         "Thomas":  73,
                                          "Mark":  87,
                                          "Rory":  76
                                      },
@@ -75,7 +75,7 @@
                          "Real Madrid":  15,
                          "Barcelona":  12,
                          "Stuttgart":  7,
-                         "Liverpool":  9,
+                         "Liverpool":  12,
                          "Arsenal":  11,
                          "Paris Saint-Germain":  12,
                          "Sporting CP":  9,
@@ -120,7 +120,7 @@
                          "Feyenoord":  4,
                          "Stuttgart":  7,
                          "Viking":  9,
-                         "Liverpool":  14,
+                         "Liverpool":  17,
                          "Atletico de Madrid":  6,
                          "Napoli":  8,
                          "Arsenal":  9,
@@ -144,7 +144,7 @@
     "teamGoalsAgainst":  {
                              "AEK Athens":  12,
                              "LASK":  10,
-                             "Club Brugge":  7,
+                             "Club Brugge":  10,
                              "Aston Villa":  7,
                              "Borussia Dortmund":  6,
                              "Villarreal":  14,
@@ -269,6 +269,7 @@
                           "2026-11-24|LP|Slovan Bratislava|Real Betis|0-2",
                           "2026-11-25|LP|Sabah|Barcelona|1-4",
                           "2026-11-25|LP|Slavia Praha|Villarreal|0-1",
-                          "2026-11-25|LP|Atletico de Madrid|Viking|2-0"
+                          "2026-11-25|LP|Atletico de Madrid|Viking|2-0",
+                          "2026-11-25|LP|Club Brugge|Liverpool|0-3"
                       ]
 }
