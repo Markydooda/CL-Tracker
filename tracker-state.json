@@ -1,9 +1,9 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  15,
+                        "Jack":  10,
                         "Thomas":  15,
                         "Mark":  15,
-                        "Rory":  -45
+                        "Rory":  -40
                     },
     "sideBets":  {
                      "pots":  {
@@ -39,10 +39,10 @@
                                    "Jack":  80,
                                    "Thomas":  93,
                                    "Mark":  84,
-                                   "Rory":  67
+                                   "Rory":  69
                                },
                      "goalsConceded":  {
-                                           "Jack":  70,
+                                           "Jack":  72,
                                            "Thomas":  87,
                                            "Mark":  80,
                                            "Rory":  87
@@ -54,10 +54,10 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  83,
+                                         "Jack":  84,
                                          "Thomas":  73,
                                          "Mark":  87,
-                                         "Rory":  76
+                                         "Rory":  78
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -98,7 +98,7 @@
                          "Slavia Praha":  1,
                          "Napoli":  4,
                          "Galatasaray":  9,
-                         "Inter":  6,
+                         "Inter":  9,
                          "LASK":  6,
                          "Lille":  1,
                          "Porto":  6
@@ -115,7 +115,7 @@
                          "Porto":  7,
                          "Manchester City":  14,
                          "Real Madrid":  18,
-                         "Inter":  8,
+                         "Inter":  10,
                          "Barcelona":  18,
                          "Feyenoord":  4,
                          "Stuttgart":  7,
@@ -156,7 +156,7 @@
                              "Inter":  6,
                              "Barcelona":  7,
                              "Feyenoord":  12,
-                             "Stuttgart":  4,
+                             "Stuttgart":  6,
                              "Viking":  12,
                              "Liverpool":  10,
                              "Atletico de Madrid":  5,
@@ -270,6 +270,7 @@
                           "2026-11-25|LP|Sabah|Barcelona|1-4",
                           "2026-11-25|LP|Slavia Praha|Villarreal|0-1",
                           "2026-11-25|LP|Atletico de Madrid|Viking|2-0",
-                          "2026-11-25|LP|Club Brugge|Liverpool|0-3"
+                          "2026-11-25|LP|Club Brugge|Liverpool|0-3",
+                          "2026-11-25|LP|Inter|Stuttgart|2-0"
                       ]
 }
