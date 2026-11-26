@@ -36,16 +36,16 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  81,
+                                   "Jack":  83,
                                    "Thomas":  95,
                                    "Mark":  84,
-                                   "Rory":  69
+                                   "Rory":  71
                                },
                      "goalsConceded":  {
-                                           "Jack":  74,
+                                           "Jack":  76,
                                            "Thomas":  88,
                                            "Mark":  80,
-                                           "Rory":  87
+                                           "Rory":  89
                                        },
                      "redCards":  {
                                       "Jack":  3,
@@ -54,7 +54,7 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  85,
+                                         "Jack":  87,
                                          "Thomas":  74,
                                          "Mark":  87,
                                          "Rory":  78
@@ -77,7 +77,7 @@
                          "Stuttgart":  7,
                          "Liverpool":  12,
                          "Arsenal":  11,
-                         "Paris Saint-Germain":  12,
+                         "Paris Saint-Germain":  13,
                          "Sporting CP":  9,
                          "PSV":  4,
                          "Shakhtar":  4,
@@ -85,7 +85,7 @@
                          "Manchester United":  6,
                          "Lens":  3,
                          "Fenerbahce":  5,
-                         "Roma":  4,
+                         "Roma":  5,
                          "Bayern Munich":  8,
                          "Sabah":  3,
                          "Atletico de Madrid":  7,
@@ -124,7 +124,7 @@
                          "Atletico de Madrid":  6,
                          "Napoli":  8,
                          "Arsenal":  9,
-                         "Paris Saint-Germain":  20,
+                         "Paris Saint-Germain":  22,
                          "Slovan Bratislava":  1,
                          "Sporting CP":  8,
                          "Galatasaray":  9,
@@ -137,7 +137,7 @@
                          "Slavia Praha":  5,
                          "Lens":  5,
                          "Fenerbahce":  6,
-                         "Roma":  10,
+                         "Roma":  12,
                          "Bayern Munich":  13,
                          "Bodo/Glimt":  5
                      },
@@ -162,7 +162,7 @@
                              "Atletico de Madrid":  5,
                              "Napoli":  13,
                              "Arsenal":  4,
-                             "Paris Saint-Germain":  5,
+                             "Paris Saint-Germain":  7,
                              "Slovan Bratislava":  19,
                              "Sporting CP":  4,
                              "Galatasaray":  9,
@@ -175,7 +175,7 @@
                              "Slavia Praha":  10,
                              "Lens":  19,
                              "Fenerbahce":  11,
-                             "Roma":  8,
+                             "Roma":  10,
                              "Bayern Munich":  7,
                              "Bodo/Glimt":  9
                          },
@@ -272,6 +272,7 @@
                           "2026-11-25|LP|Atletico de Madrid|Viking|2-0",
                           "2026-11-25|LP|Club Brugge|Liverpool|0-3",
                           "2026-11-25|LP|Inter|Stuttgart|2-0",
-                          "2026-11-25|LP|Lille|Bayern Munich|2-1"
+                          "2026-11-25|LP|Lille|Bayern Munich|2-1",
+                          "2026-11-25|LP|Paris Saint-Germain|Roma|2-2"
                       ]
 }
