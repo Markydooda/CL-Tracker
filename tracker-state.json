@@ -39,13 +39,13 @@
                                    "Jack":  78,
                                    "Thomas":  90,
                                    "Mark":  84,
-                                   "Rory":  66
+                                   "Rory":  67
                                },
                      "goalsConceded":  {
                                            "Jack":  70,
                                            "Thomas":  85,
                                            "Mark":  77,
-                                           "Rory":  86
+                                           "Rory":  87
                                        },
                      "redCards":  {
                                       "Jack":  3,
@@ -57,7 +57,7 @@
                                          "Jack":  83,
                                          "Thomas":  71,
                                          "Mark":  87,
-                                         "Rory":  70
+                                         "Rory":  76
                                      },
                      "last16":  {
                                     "Jack":  0,
@@ -92,7 +92,7 @@
                          "Club Brugge":  9,
                          "Leipzig":  6,
                          "Viking":  4,
-                         "Villarreal":  3,
+                         "Villarreal":  6,
                          "Feyenoord":  3,
                          "Bodo/Glimt":  7,
                          "Slavia Praha":  1,
@@ -109,7 +109,7 @@
                          "Club Brugge":  11,
                          "Aston Villa":  12,
                          "Borussia Dortmund":  8,
-                         "Villarreal":  8,
+                         "Villarreal":  9,
                          "Lille":  4,
                          "Real Betis":  10,
                          "Porto":  7,
@@ -172,7 +172,7 @@
                              "Leipzig":  12,
                              "Manchester United":  8,
                              "Sabah":  14,
-                             "Slavia Praha":  9,
+                             "Slavia Praha":  10,
                              "Lens":  19,
                              "Fenerbahce":  11,
                              "Roma":  8,
@@ -267,6 +267,7 @@
                           "2026-11-24|LP|Manchester City|Napoli|2-2",
                           "2026-11-24|LP|Real Madrid|PSV|5-1",
                           "2026-11-24|LP|Slovan Bratislava|Real Betis|0-2",
-                          "2026-11-25|LP|Sabah|Barcelona|1-4"
+                          "2026-11-25|LP|Sabah|Barcelona|1-4",
+                          "2026-11-25|LP|Slavia Praha|Villarreal|0-1"
                       ]
 }
