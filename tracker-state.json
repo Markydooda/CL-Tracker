@@ -1,7 +1,7 @@
 ﻿{
     "balancesGBP":  {
-                        "Jack":  10,
-                        "Thomas":  15,
+                        "Jack":  5,
+                        "Thomas":  20,
                         "Mark":  15,
                         "Rory":  -40
                     },
@@ -36,14 +36,14 @@
                                                                          }
                                            },
                      "goals":  {
-                                   "Jack":  80,
-                                   "Thomas":  93,
+                                   "Jack":  81,
+                                   "Thomas":  95,
                                    "Mark":  84,
                                    "Rory":  69
                                },
                      "goalsConceded":  {
-                                           "Jack":  72,
-                                           "Thomas":  87,
+                                           "Jack":  74,
+                                           "Thomas":  88,
                                            "Mark":  80,
                                            "Rory":  87
                                        },
@@ -54,8 +54,8 @@
                                       "Rory":  5
                                   },
                      "yellowCards":  {
-                                         "Jack":  84,
-                                         "Thomas":  73,
+                                         "Jack":  85,
+                                         "Thomas":  74,
                                          "Mark":  87,
                                          "Rory":  78
                                      },
@@ -100,7 +100,7 @@
                          "Galatasaray":  9,
                          "Inter":  9,
                          "LASK":  6,
-                         "Lille":  1,
+                         "Lille":  4,
                          "Porto":  6
                      },
     "teamGoalsFor":  {
@@ -110,7 +110,7 @@
                          "Aston Villa":  12,
                          "Borussia Dortmund":  8,
                          "Villarreal":  9,
-                         "Lille":  4,
+                         "Lille":  6,
                          "Real Betis":  10,
                          "Porto":  7,
                          "Manchester City":  14,
@@ -138,7 +138,7 @@
                          "Lens":  5,
                          "Fenerbahce":  6,
                          "Roma":  10,
-                         "Bayern Munich":  12,
+                         "Bayern Munich":  13,
                          "Bodo/Glimt":  5
                      },
     "teamGoalsAgainst":  {
@@ -148,7 +148,7 @@
                              "Aston Villa":  7,
                              "Borussia Dortmund":  6,
                              "Villarreal":  14,
-                             "Lille":  10,
+                             "Lille":  11,
                              "Real Betis":  6,
                              "Porto":  7,
                              "Manchester City":  9,
@@ -176,7 +176,7 @@
                              "Lens":  19,
                              "Fenerbahce":  11,
                              "Roma":  8,
-                             "Bayern Munich":  5,
+                             "Bayern Munich":  7,
                              "Bodo/Glimt":  9
                          },
     "last16Teams":  [
@@ -271,6 +271,7 @@
                           "2026-11-25|LP|Slavia Praha|Villarreal|0-1",
                           "2026-11-25|LP|Atletico de Madrid|Viking|2-0",
                           "2026-11-25|LP|Club Brugge|Liverpool|0-3",
-                          "2026-11-25|LP|Inter|Stuttgart|2-0"
+                          "2026-11-25|LP|Inter|Stuttgart|2-0",
+                          "2026-11-25|LP|Lille|Bayern Munich|2-1"
                       ]
 }
